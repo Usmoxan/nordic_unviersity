@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:nordic_unviersity/pages/pdfreader.dart';
 
 
 class TaqdimotlarPage extends StatefulWidget {
@@ -28,7 +29,12 @@ class _TaqdimotlarPageState extends State<TaqdimotlarPage> {
           children: [
             ListViewWidget(
               title: "17-mavzu taqdimoti",
-              onClicked: () {},
+              onClicked: () {
+                 Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const PdfReaderPage()));
+              },
             ),
             ListViewWidget(
               title: "18-mavzu taqdimoti",

@@ -51,13 +51,15 @@ class _HomePageState extends State<HomePage> {
             crossAxisSpacing: 25.0,
             mainAxisSpacing: 25.0,
             children: <Widget>[
-              _buildGridItem(Icons.description, 'Sillabus', () {}),
-              _buildGridItem(Icons.note, 'Mavzular', () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const MavzularPage()));
+              _buildGridItem('assets/icon3.png', 'Sillabus', () {}),
+              _buildGridItem('assets/icon2.png', 'Mavzular', () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const MavzularPage()));
               }),
-              _buildGridItem(Icons.question_answer, 'Topshiriqlar', () {}),
-              _buildGridItem(Icons.book, 'Adabiyotlar va havolalar', () {}),
+              _buildGridItem('assets/icon4.png', 'Topshiriqlar', () {}),
+              _buildGridItem('assets/icon1.png', 'Adabiyotlar va havolalar', () {}),
             ],
           ),
           const Spacer(),
@@ -74,7 +76,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _buildGridItem(IconData icon, String label, VoidCallback onClickedd) {
+  Widget _buildGridItem(String imgname, String label, VoidCallback onClickedd) {
     return GestureDetector(
       onTap: onClickedd,
       child: Container(
@@ -94,7 +96,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Icon(icon, size: 50, color: Colors.blue),
+            Image.asset(imgname,width: 70,),
             const SizedBox(height: 10),
             Text(label,
                 textAlign: TextAlign.center,

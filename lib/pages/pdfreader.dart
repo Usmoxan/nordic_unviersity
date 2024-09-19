@@ -25,7 +25,7 @@ class _PdfReaderPageState extends State<PdfReaderPage> {
       ),
       body: PDF(
         enableSwipe: true,
-        swipeHorizontal: true,
+        swipeHorizontal: false,
         autoSpacing: false,
         pageFling: false,
         onError: (error) {
@@ -37,7 +37,7 @@ class _PdfReaderPageState extends State<PdfReaderPage> {
         onPageChanged: (int? page, int? total) {
           print('page change: $page/$total');
         },
-      ).fromAsset('assets/files/17MAVZUTAQDIMOTI.pdf'),
+      ).fromAsset('assets/files/taqdimotlar/17MAVZUTAQDIMOTI.pdf'),
     );
   }
 }
