@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:nordic_unviersity/pages/ppttaqdimotlar.dart';
-import 'package:nordic_unviersity/pages/videolist.dart';
 
-class MavzularPage extends StatefulWidget {
-  const MavzularPage({super.key});
+
+class TaqdimotlarPage extends StatefulWidget {
+  const TaqdimotlarPage({super.key});
 
   @override
-  State<MavzularPage> createState() => _MavzularPageState();
+  State<TaqdimotlarPage> createState() => _TaqdimotlarPageState();
 }
 
-class _MavzularPageState extends State<MavzularPage> {
+class _TaqdimotlarPageState extends State<TaqdimotlarPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +18,7 @@ class _MavzularPageState extends State<MavzularPage> {
         iconTheme: const IconThemeData(color: Colors.white),
         actionsIconTheme: const IconThemeData(color: Colors.white),
         title: const Text(
-          "Mavzular",
+          "PPT taqdimotlar",
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -28,22 +27,25 @@ class _MavzularPageState extends State<MavzularPage> {
         child: Column(
           children: [
             ListViewWidget(
-              title: "PPT taqdimotlar",
-              onClicked: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const TaqdimotlarPage()));
-              },
+              title: "17-mavzu taqdimoti",
+              onClicked: () {},
             ),
             ListViewWidget(
-                title: "Video darslar",
-                onClicked: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const VideosPage()));
-                }),
+              title: "18-mavzu taqdimoti",
+              onClicked: () {},
+            ),
+            ListViewWidget(
+              title: "19-mavzu taqdimoti",
+              onClicked: () {},
+            ),
+            ListViewWidget(
+              title: "20-mavzu taqdimoti",
+              onClicked: () {},
+            ),
+            ListViewWidget(
+              title: "21-mavzu taqdimoti",
+              onClicked: () {},
+            ),
           ],
         ),
       ),
