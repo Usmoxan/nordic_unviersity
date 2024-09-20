@@ -4,7 +4,8 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 
 class PdfReaderPage extends StatefulWidget {
-  const PdfReaderPage({super.key});
+  final String filePath;
+  const PdfReaderPage({super.key, required this.filePath});
 
   @override
   State<PdfReaderPage> createState() => _PdfReaderPageState();

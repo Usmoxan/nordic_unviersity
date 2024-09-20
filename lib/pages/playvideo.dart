@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class PlayVideoPage extends StatefulWidget {
-  const PlayVideoPage({super.key});
+  final String urlVideo;
+  const PlayVideoPage({super.key, required this.urlVideo});
 
   @override
   State<PlayVideoPage> createState() => _PlayVideoPageState();
@@ -15,7 +16,7 @@ class _PlayVideoPageState extends State<PlayVideoPage> {
   void initState() {
     super.initState();
     _controller = YoutubePlayerController(
-      initialVideoId: 'DePqk44thWA', // Replace with your video ID
+      initialVideoId: widget.urlVideo, // Replace with your video ID
       flags: const YoutubePlayerFlags(
         autoPlay: true,
         mute: false,
@@ -36,19 +37,20 @@ class _PlayVideoPageState extends State<PlayVideoPage> {
     // Handle back button press logic here
     if (_controller.value.isFullScreen) {
       _controller
-          .toggleFullScreenMode(); // Exit fullscreen if the video is in fullscreen mode
-      return Future.value(false); // Prevent back navigation when in full screen
+          .toggleFullScreenMode(); // Exit fullscreen if in fullscreen mode
+      return Future.value(
+          false); // Prevent back navigation while exiting fullscreen
     }
-    return Future.value(true); // Allow back navigation otherwise
+    return Future.value(
+        true); // Allow back navigation when not in fullscreen mode
   }
 
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: _onWillPop, // Intercepts phone back button
+      onWillPop: _onWillPop, // Intercept the back button
       child: Scaffold(
-        backgroundColor:
-            Colors.black, // Makes the background black for a cleaner look
+        backgroundColor: Colors.black,
         body: YoutubePlayerBuilder(
           player: YoutubePlayer(
             controller: _controller,
@@ -59,7 +61,7 @@ class _PlayVideoPageState extends State<PlayVideoPage> {
               handleColor: Color(0xFF296BCF),
             ),
             onReady: () {
-              _controller.addListener(() {});
+              _controller.addListener(() {}); // Add any listener if needed
             },
           ),
           builder: (context, player) {
@@ -67,16 +69,16 @@ class _PlayVideoPageState extends State<PlayVideoPage> {
               children: [
                 Positioned.fill(child: player), // Player takes full screen
                 Positioned(
-                  top: 40, // Adjust the back button position
+                  top: 40,
                   left: 10,
                   child: IconButton(
                     icon: const Icon(Icons.arrow_back, color: Colors.white),
-                    onPressed: () {
+                    onPressed: () async {
                       if (_controller.value.isFullScreen) {
                         _controller
                             .toggleFullScreenMode(); // Exit fullscreen first
                       } else {
-                        Navigator.pop(context); // Go back if not in full screen
+                        Navigator.pop(context); // Navigate back
                       }
                     },
                   ),

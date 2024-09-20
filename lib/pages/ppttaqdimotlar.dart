@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:nordic_unviersity/pages/pdfreader.dart';
 
-
 class TaqdimotlarPage extends StatefulWidget {
   const TaqdimotlarPage({super.key});
 
@@ -11,6 +10,26 @@ class TaqdimotlarPage extends StatefulWidget {
 }
 
 class _TaqdimotlarPageState extends State<TaqdimotlarPage> {
+  final List<Map<String, String>> presentations = [
+    {"title": "1-mavzu taqdimoti", "path": "assets/presentations/mavzu1.pdf"},
+    {"title": "2-mavzu taqdimoti", "path": "assets/presentations/mavzu2.pdf"},
+    {"title": "3-mavzu taqdimoti", "path": "assets/presentations/mavzu3.pdf"},
+    {"title": "4-mavzu taqdimoti", "path": "assets/presentations/mavzu4.pdf"},
+    {"title": "5-mavzu taqdimoti", "path": "assets/presentations/mavzu5.pdf"},
+    {"title": "6-mavzu taqdimoti", "path": "assets/presentations/mavzu6.pdf"},
+    {"title": "7-mavzu taqdimoti", "path": "assets/presentations/mavzu7.pdf"},
+    {"title": "8-mavzu taqdimoti", "path": "assets/presentations/mavzu8.pdf"},
+    {"title": "9-mavzu taqdimoti", "path": "assets/presentations/mavzu9.pdf"},
+    {"title": "10-mavzu taqdimoti", "path": "assets/presentations/mavzu10.pdf"},
+    {"title": "11-mavzu taqdimoti", "path": "assets/presentations/mavzu11.pdf"},
+    {"title": "12-mavzu taqdimoti", "path": "assets/presentations/mavzu12.pdf"},
+    {"title": "13-mavzu taqdimoti", "path": "assets/presentations/mavzu13.pdf"},
+    {"title": "14-mavzu taqdimoti", "path": "assets/presentations/mavzu14.pdf"},
+    {"title": "15-mavzu taqdimoti", "path": "assets/presentations/mavzu15.pdf"},
+    {"title": "16-mavzu taqdimoti", "path": "assets/presentations/mavzu16.pdf"},
+    {"title": "17-mavzu taqdimoti", "path": "assets/presentations/mavzu17.pdf"},
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,37 +42,22 @@ class _TaqdimotlarPageState extends State<TaqdimotlarPage> {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Column(
-          children: [
-            ListViewWidget(
-              title: "17-mavzu taqdimoti",
-              onClicked: () {
-                 Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const PdfReaderPage()));
-              },
-            ),
-            ListViewWidget(
-              title: "18-mavzu taqdimoti",
-              onClicked: () {},
-            ),
-            ListViewWidget(
-              title: "19-mavzu taqdimoti",
-              onClicked: () {},
-            ),
-            ListViewWidget(
-              title: "20-mavzu taqdimoti",
-              onClicked: () {},
-            ),
-            ListViewWidget(
-              title: "21-mavzu taqdimoti",
-              onClicked: () {},
-            ),
-          ],
-        ),
+      body: ListView.builder(
+        itemCount: presentations.length,
+        itemBuilder: (context, index) {
+          return ListViewWidget(
+            title: presentations[index]['title']!,
+            onClicked: () {
+              final path = presentations[index]['path']!;
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => PdfReaderPage(filePath: path),
+                ),
+              );
+            },
+          );
+        },
       ),
     );
   }
@@ -73,7 +77,7 @@ class ListViewWidget extends StatelessWidget {
     return GestureDetector(
       onTap: onClicked,
       child: Container(
-        margin: const EdgeInsets.only(top: 15),
+        margin: const EdgeInsets.only(top: 15, left: 15, right: 15),
         padding: const EdgeInsets.all(25),
         decoration: BoxDecoration(
           color: Colors.white,
