@@ -5,7 +5,8 @@ import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 
 class PdfReaderPage extends StatefulWidget {
   final String filePath;
-  const PdfReaderPage({super.key, required this.filePath});
+  final String title;
+  const PdfReaderPage({super.key, required this.filePath, required this.title});
 
   @override
   State<PdfReaderPage> createState() => _PdfReaderPageState();
@@ -19,9 +20,9 @@ class _PdfReaderPageState extends State<PdfReaderPage> {
         backgroundColor: const Color(0xFF296BCF),
         iconTheme: const IconThemeData(color: Colors.white),
         actionsIconTheme: const IconThemeData(color: Colors.white),
-        title: const Text(
-          "17-mavzu taqdimoti",
-          style: TextStyle(color: Colors.white),
+        title: Text(
+          widget.title,
+          style: const TextStyle(color: Colors.white),
         ),
       ),
       body: PDF(
@@ -38,7 +39,7 @@ class _PdfReaderPageState extends State<PdfReaderPage> {
         onPageChanged: (int? page, int? total) {
           print('page change: $page/$total');
         },
-      ).fromAsset('assets/files/taqdimotlar/17MAVZUTAQDIMOTI.pdf'),
+      ).fromAsset(widget.filePath),
     );
   }
 }

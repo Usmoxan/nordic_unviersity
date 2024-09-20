@@ -1,6 +1,9 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:nordic_unviersity/pages/adabiyotlar.dart';
+import 'package:nordic_unviersity/pages/pdfreader.dart';
+import 'package:nordic_unviersity/pages/topshiriqlar.dart';
 
 import 'mavzular.dart';
 
@@ -51,15 +54,36 @@ class _HomePageState extends State<HomePage> {
             crossAxisSpacing: 25.0,
             mainAxisSpacing: 25.0,
             children: <Widget>[
-              _buildGridItem('assets/icon3.png', 'Sillabus', () {}),
+              _buildGridItem('assets/icon3.png', 'Sillabus', () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const PdfReaderPage(
+                      filePath: 'assets/files/sillabus.pdf',
+                      title: 'Sillabus',
+                    ),
+                  ),
+                );
+              }),
               _buildGridItem('assets/icon2.png', 'Mavzular', () {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) => const MavzularPage()));
               }),
-              _buildGridItem('assets/icon4.png', 'Topshiriqlar', () {}),
-              _buildGridItem('assets/icon1.png', 'Adabiyotlar va havolalar', () {}),
+              _buildGridItem('assets/icon4.png', 'Topshiriqlar', () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const TopshiriqlarPage()));
+              }),
+              _buildGridItem('assets/icon1.png', 'Adabiyotlar va havolalar',
+                  () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AdabiyotlarPage()));
+              }),
             ],
           ),
           const Spacer(),
@@ -96,7 +120,10 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Image.asset(imgname,width: 70,),
+            Image.asset(
+              imgname,
+              width: 70,
+            ),
             const SizedBox(height: 10),
             Text(label,
                 textAlign: TextAlign.center,

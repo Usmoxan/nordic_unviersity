@@ -11,23 +11,23 @@ class TaqdimotlarPage extends StatefulWidget {
 
 class _TaqdimotlarPageState extends State<TaqdimotlarPage> {
   final List<Map<String, String>> presentations = [
-    {"title": "1-mavzu taqdimoti", "path": "assets/presentations/mavzu1.pdf"},
-    {"title": "2-mavzu taqdimoti", "path": "assets/presentations/mavzu2.pdf"},
-    {"title": "3-mavzu taqdimoti", "path": "assets/presentations/mavzu3.pdf"},
-    {"title": "4-mavzu taqdimoti", "path": "assets/presentations/mavzu4.pdf"},
-    {"title": "5-mavzu taqdimoti", "path": "assets/presentations/mavzu5.pdf"},
-    {"title": "6-mavzu taqdimoti", "path": "assets/presentations/mavzu6.pdf"},
-    {"title": "7-mavzu taqdimoti", "path": "assets/presentations/mavzu7.pdf"},
-    {"title": "8-mavzu taqdimoti", "path": "assets/presentations/mavzu8.pdf"},
-    {"title": "9-mavzu taqdimoti", "path": "assets/presentations/mavzu9.pdf"},
-    {"title": "10-mavzu taqdimoti", "path": "assets/presentations/mavzu10.pdf"},
-    {"title": "11-mavzu taqdimoti", "path": "assets/presentations/mavzu11.pdf"},
-    {"title": "12-mavzu taqdimoti", "path": "assets/presentations/mavzu12.pdf"},
-    {"title": "13-mavzu taqdimoti", "path": "assets/presentations/mavzu13.pdf"},
-    {"title": "14-mavzu taqdimoti", "path": "assets/presentations/mavzu14.pdf"},
-    {"title": "15-mavzu taqdimoti", "path": "assets/presentations/mavzu15.pdf"},
-    {"title": "16-mavzu taqdimoti", "path": "assets/presentations/mavzu16.pdf"},
-    {"title": "17-mavzu taqdimoti", "path": "assets/presentations/mavzu17.pdf"},
+    {"title": "1-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu1.pdf"},
+    {"title": "2-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu2.pdf"},
+    {"title": "3-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu3.pdf"},
+    {"title": "4-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu4.pdf"},
+    {"title": "5-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu5.pdf"},
+    {"title": "6-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu6.pdf"},
+    {"title": "7-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu7.pdf"},
+    {"title": "8-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu8.pdf"},
+    {"title": "9-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu9.pdf"},
+    {"title": "10-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu10.pdf"},
+    {"title": "11-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu11.pdf"},
+    {"title": "12-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu12.pdf"},
+    {"title": "13-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu13.pdf"},
+    {"title": "14-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu14.pdf"},
+    {"title": "15-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu15.pdf"},
+    {"title": "16-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu16.pdf"},
+    {"title": "17-mavzu taqdimoti", "path": "assets/files/taqdimotlar/mavzu17.pdf"},
   ];
 
   @override
@@ -52,7 +52,10 @@ class _TaqdimotlarPageState extends State<TaqdimotlarPage> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => PdfReaderPage(filePath: path),
+                  builder: (context) => PdfReaderPage(
+                    filePath: path,
+                    title: presentations[index]['title']!,
+                  ),
                 ),
               );
             },

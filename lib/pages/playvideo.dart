@@ -33,58 +33,21 @@ class _PlayVideoPageState extends State<PlayVideoPage> {
     super.dispose();
   }
 
-  Future<bool> _onWillPop() async {
-    // Handle back button press logic here
-    if (_controller.value.isFullScreen) {
-      _controller
-          .toggleFullScreenMode(); // Exit fullscreen if in fullscreen mode
-      return Future.value(
-          false); // Prevent back navigation while exiting fullscreen
-    }
-    return Future.value(
-        true); // Allow back navigation when not in fullscreen mode
-  }
-
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: _onWillPop, // Intercept the back button
-      child: Scaffold(
-        backgroundColor: Colors.black,
-        body: YoutubePlayerBuilder(
-          player: YoutubePlayer(
-            controller: _controller,
-            showVideoProgressIndicator: true,
-            progressIndicatorColor: const Color(0xFF296BCF),
-            progressColors: const ProgressBarColors(
-              playedColor: Color(0xFF296BCF),
-              handleColor: Color(0xFF296BCF),
-            ),
-            onReady: () {
-              _controller.addListener(() {}); // Add any listener if needed
-            },
+    return Scaffold(
+      backgroundColor: Colors.black,
+      body: Center(
+        child: YoutubePlayer(
+          controller: _controller,
+          showVideoProgressIndicator: true,
+          progressIndicatorColor: const Color(0xFF296BCF),
+          progressColors: const ProgressBarColors(
+            playedColor: Color(0xFF296BCF),
+            handleColor: Color(0xFF296BCF),
           ),
-          builder: (context, player) {
-            return Stack(
-              children: [
-                Positioned.fill(child: player), // Player takes full screen
-                Positioned(
-                  top: 40,
-                  left: 10,
-                  child: IconButton(
-                    icon: const Icon(Icons.arrow_back, color: Colors.white),
-                    onPressed: () async {
-                      if (_controller.value.isFullScreen) {
-                        _controller
-                            .toggleFullScreenMode(); // Exit fullscreen first
-                      } else {
-                        Navigator.pop(context); // Navigate back
-                      }
-                    },
-                  ),
-                ),
-              ],
-            );
+          onReady: () {
+            _controller.addListener(() {});
           },
         ),
       ),

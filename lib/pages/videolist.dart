@@ -14,79 +14,79 @@ class _VideosPageState extends State<VideosPage> {
     {
       "title": "Iqtisodiyotga kirish: Raqobat va monopoliya",
       "url":
-          "https://www.youtube.com/watch?v=DePqk44thWA&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm"
+          "DePqk44thWA"
     },
     {
       "title": "Iqtisodiyotga kirish: Iste’molchilar tanlovi nazariyasi",
       "url":
-          "https://www.youtube.com/watch?v=a0dub_fG1Eg&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=2"
+          "a0dub_fG1Eg"
     },
     {
       "title": "Iqtisodiyotga kirish: Talab, taklif, bozor muvozanati",
       "url":
-          "https://www.youtube.com/watch?v=ljJeusm-XSg&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=3"
+          "ljJeusm-XSg"
     },
     {
       "title":
           "Iqtisodiyotga kirish: Bozor iqtisodiyotining mazmuni va unga o‘tish yo‘llari",
       "url":
-          "https://www.youtube.com/watch?v=kF9zzkwL6Qk&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=4"
+          "kF9zzkwL6Qk"
     },
     {
       "title": "Iqtisodiyotga kirish: Tovar pul munosabatlari",
       "url":
-          "https://www.youtube.com/watch?v=jkPgr9uz_hY&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=5"
+          "jkPgr9uz_hY"
     },
     {
       "title": "Iqtisodiyotga kirish: Iqtisodiy tizimlar va mulkchilik",
       "url":
-          "https://www.youtube.com/watch?v=auzNxx8dWYc&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=6"
+          "auzNxx8dWYc"
     },
     {
       "title":
           "Iqtisodiyotga kirish: Ishlab chiqarish jarayoni va uning natijalari",
       "url":
-          "https://www.youtube.com/watch?v=qf2RatuNBAE&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=7"
+          "qf2RatuNBAE"
     },
     {
       "title": "Iqtisodiyotga kirish: Iqtisodiyot bilan tanishuv",
       "url":
-          "https://www.youtube.com/watch?v=uhTZk8dOBnM&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=8"
+          "uhTZk8dOBnM"
     },
     {
       "title": "Iqtisodiyotga kirish: Narxning mohiyati va shakllanishi",
       "url":
-          "https://www.youtube.com/watch?v=ewGOBmdAGsQ&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=9"
+          "ewGOBmdAGsQ"
     },
     {
       "title": "Iqtisodiyotga kirish: Tadbirkorlik faoliyati",
       "url":
-          "https://www.youtube.com/watch?v=i1w90MukZ-g&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=10"
+          "i1w90MukZ-g"
     },
     {
       "title": "Iqtisodiyotga kirish: Ishlab chiqarish xarajatlari va foydasi",
       "url":
-          "https://www.youtube.com/watch?v=S2qhBU7JNas&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=11"
+          "S2qhBU7JNas"
     },
     {
       "title": "Iqtisodiyotga kirish: Ish haqi va mehnat munosabatlari",
       "url":
-          "https://www.youtube.com/watch?v=S2m2F_9QoZQ&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=12"
+          "S2m2F_9QoZQ"
     },
     {
       "title": "Iqtisodiyotga kirish: Agrar munosabatlar va agrobiznes",
       "url":
-          "https://www.youtube.com/watch?v=g9bsSbbCZu4&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=13"
+          "g9bsSbbCZu4"
     },
     {
       "title": "Iqtisodiyotga kirish: Iqtisodiy o‘sish va milliy boylik",
       "url":
-          "https://www.youtube.com/watch?v=MRogIthNHZ8&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=14"
+          "MRogIthNHZ"
     },
     {
       "title": "Iqtisodiyotga kirish: Yalpi talab va yalpi taklif",
       "url":
-          "https://www.youtube.com/watch?v=QJQ2qGiuHvY&list=PLBu7dpSSVMc7iSKaX5H4mIxMMU4crSEjm&index=15"
+          "QJQ2qGiuHvY"
     },
   ];
 
