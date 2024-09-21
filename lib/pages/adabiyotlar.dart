@@ -11,23 +11,19 @@ class AdabiyotlarPage extends StatefulWidget {
 
 class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
   final List<Map<String, String>> presentations = [
-    {
-      "title": "Aaaa",
-      "path": "assets/files/Iqtisodiyot nazariyasi (A.O'lmasov, M.Sharifxo'jayev).pdf"
-    },
-    {
-      "title": "2-LOYIHA ISHI-IQTISODIYOTGA KIRISH",
-      "path": "assets/files/topshiriq2.pdf"
-    },
-    {
-      "title": "IQTISODIYOTGA KIRISH - YAKUNIY NAZORAT TESTI",
-      "path": "assets/files/topshiriq3.pdf"
-    },
-    {
-      "title":
-          "IQTISODIYOTGA KIRISH-ORALIQ NAZORAT BO`YICHA TEST SAVOLLARI-2023-2024",
-      "path": "assets/files/topshiriq4.pdf"
-    }
+    {"title": "IQTISODIYOT NAZARIYASI", "path": "assets/adabiyot/adabiyotlar1.pdf"},
+    {"title": "IQTISODIYOT NAZARIYASI, QO`LLANMA", "path": "assets/adabiyot/adabiyotlar2.pdf"},
+    {"title": "Iqtisodiyot nazariyasi (Yu.Yo'ldoshev)", "path": "assets/adabiyot/adabiyotlar3.pdf"},
+    {"title": "Iqtisodiy talimotlar tarixi", "path": "assets/adabiyot/adabiyotlar4.pdf"},
+    {"title": "Iqtisod nazariyasi Qobilov darslik 2013", "path": "assets/adabiyot/adabiyotlar5.pdf"},
+    {"title": "Tashmatov Sh H va b Iqtisodiy ta'limotlar tarixi Darslik 2019", "path": "assets/adabiyot/adabiyotlar6.pdf"},
+    {"title": "Замонавий иктисодий назариялар 2", "path": "assets/adabiyot/adabiyotlar7.pdf"},
+    {"title": "АРМ_Tashmatov_Sh_H_Iqtisodiy_ta'limotlar_tarixi_Darslik_2019_", "path": "assets/adabiyot/adabiyotlar8.pdf"},
+    {"title": "Iqtisodiy atamalarning o'zbekcha-inglizcha-ruscha lug'ati (Toshturg'un Ergashev)", "path": "assets/adabiyot/adabiyotlar9.pdf"},
+    {"title": "Iqtisodiyot nazariyasi. 2-kitob (D.Tojiboyev)", "path": "assets/adabiyot/adabiyotlar10.pdf"},
+    {"title": "Iqtisodiyot nazariyasi (A.O'lmasov, M.Sharifxo'jayev)", "path": "assets/adabiyot/adabiyotlar11.pdf"},
+    {"title": "IQTISODIYOT NAZARIYASIDA MUNOZARALAR", "path": "assets/adabiyot/adabiyotlar12.pdf"},
+    {"title": "Iqtisodiyot nazariyasi Olmasov A. Vahobov A. 2014 (2)", "path": "assets/adabiyot/adabiyotlar13.pdf"}
   ];
 
   @override
