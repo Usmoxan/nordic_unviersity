@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:nordic_unviersity/pages/pdfreader.dart';
+import 'package:nordic_unviersity/pages/quiz.dart';
 
 class TopshiriqlarPage extends StatefulWidget {
   const TopshiriqlarPage({super.key});
@@ -13,19 +14,24 @@ class _TopshiriqlarPageState extends State<TopshiriqlarPage> {
   final List<Map<String, String>> presentations = [
     {
       "title": "1-LOYIHA ISHI-IQTISODIYOTGA KIRISH",
-      "path": "assets/files/topshiriq1.pdf"
+      "path": "assets/files/topshiriq1.pdf",
+      "isJson": "false"
     },
     {
       "title": "2-LOYIHA ISHI-IQTISODIYOTGA KIRISH",
-      "path": "assets/files/topshiriq2.pdf"
+      "path": "assets/files/topshiriq2.pdf",
+      "isJson": "false"
     },
     {
       "title": "IQTISODIYOTGA KIRISH - YAKUNIY NAZORAT TESTI",
-      "path": "assets/files/topshiriq3.pdf"
+      "path": "assets/files/topshiriq3.pdf",
+      "isJson": "false"
     },
     {
-      "title": "IQTISODIYOTGA KIRISH-ORALIQ NAZORAT BO`YICHA TEST SAVOLLARI-2023-2024",
-      "path": "assets/files/topshiriq4.pdf"
+      "title":
+          "IQTISODIYOTGA KIRISH-ORALIQ NAZORAT BO`YICHA TEST SAVOLLARI-2023-2024",
+      "path": "assets/questions.json",
+      "isJson": "true"
     }
   ];
 
@@ -33,7 +39,7 @@ class _TopshiriqlarPageState extends State<TopshiriqlarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF296BCF),
+        backgroundColor: const Color(0xFF087268),
         iconTheme: const IconThemeData(color: Colors.white),
         actionsIconTheme: const IconThemeData(color: Colors.white),
         title: const Text(
@@ -48,15 +54,26 @@ class _TopshiriqlarPageState extends State<TopshiriqlarPage> {
             title: presentations[index]['title']!,
             onClicked: () {
               final path = presentations[index]['path']!;
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => PdfReaderPage(
-                    filePath: path,
-                    title: presentations[index]['title']!,
+              if (presentations[index]['isJson'] == "true") {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Quiz(
+                      jsonPath: path,
+                    ),
                   ),
-                ),
-              );
+                );
+              } else {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PdfReaderPage(
+                      filePath: path,
+                      title: presentations[index]['title']!,
+                    ),
+                  ),
+                );
+              }
             },
           );
         },

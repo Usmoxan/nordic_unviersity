@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:nordic_unviersity/pages/aboutpage.dart';
 import 'package:nordic_unviersity/pages/adabiyotlar.dart';
 import 'package:nordic_unviersity/pages/pdfreader.dart';
 import 'package:nordic_unviersity/pages/topshiriqlar.dart';
@@ -19,7 +20,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF296BCF),
+        backgroundColor: const Color(0xFF087268),
         title: Row(
           children: [
             // University Logo (Placeholder for the logo)
@@ -38,8 +39,21 @@ class _HomePageState extends State<HomePage> {
               size: 30,
             ),
             onPressed: () {
-              // Handle Info Button Press
-              print('Info button pressed');
+                 Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const PdfReaderPage(
+                    filePath: "assets/files/about.pdf",
+                    title: "Ma'lumot",
+                  ),
+                ),
+              );
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => const Aboutpage(),
+              //   ),
+              // );
             },
           ),
         ],
@@ -88,9 +102,9 @@ class _HomePageState extends State<HomePage> {
           ),
           const Spacer(),
           const Text(
-            "UNIVERSITAS NORDICA INTERNATIONALIS",
+            "IQTISODIYOTGA KIRISH",
             style: TextStyle(
-                color: Color(0xFF296BCF),
+                color: Color(0xFF087268),
                 fontWeight: FontWeight.bold,
                 fontSize: 18),
           ),
@@ -111,7 +125,7 @@ class _HomePageState extends State<HomePage> {
             BoxShadow(
               color: Colors.grey.withOpacity(0.5),
               spreadRadius: 2,
-              blurRadius: 5,
+              blurRadius: 4,
               offset: const Offset(0, 3), // Shadow position
             ),
           ],

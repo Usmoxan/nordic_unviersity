@@ -94,7 +94,7 @@ class _VideosPageState extends State<VideosPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF296BCF),
+        backgroundColor: const Color(0xFF087268),
         iconTheme: const IconThemeData(color: Colors.white),
         actionsIconTheme: const IconThemeData(color: Colors.white),
         title: const Text(

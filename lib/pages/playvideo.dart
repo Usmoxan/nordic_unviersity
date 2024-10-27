@@ -74,10 +74,10 @@ class _PlayVideoPageState extends State<PlayVideoPage> {
           child: YoutubePlayer(
             controller: _controller,
             showVideoProgressIndicator: true,
-            progressIndicatorColor: const Color(0xFF296BCF),
+            progressIndicatorColor: const Color(0xFF087268),
             progressColors: const ProgressBarColors(
-              playedColor: Color(0xFF296BCF),
-              handleColor: Color(0xFF296BCF),
+              playedColor: Color(0xFF087268),
+              handleColor: Color(0xFF087268),
             ),
             onReady: () {
               _controller.addListener(() {});

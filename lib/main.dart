@@ -18,10 +18,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Nordik universiteti',
+      title: 'Iqtisodiyotga kirish',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF296BCF)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF0b4075
+)),
         useMaterial3: true,
       ),
       home: const SplashPage(),

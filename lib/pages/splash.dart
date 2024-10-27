@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:nordic_unviersity/pages/home.dart';
 
-
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
 
@@ -25,12 +24,21 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF296BCF),
-      body: Center(
-        child: SizedBox(
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Color(0xFF087268), Color(0xFF21bf8e)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+        ),
+        child: Center(
+          child: SizedBox(
             width: 300,
             height: 150,
-            child: Image.asset("assets/logo_2x.png")),
+            child: Image.asset("assets/logo_2x.png"),
+          ),
+        ),
       ),
     );
   }
