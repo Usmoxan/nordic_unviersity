@@ -1,92 +1,20 @@
 [
     {
-      "question": "Payg’ambarimiz Muhammad s.a.v qachon tug’ulib? Qachon vafot etganlar?",
+      "question": "SAVOL",
       "answers": [
-        {"answer": "571 tug’ulib 632 vafot etganlar", "correct": true},
-        {"answer": "570 tug’ulib 632 vafot etganlar", "correct": false},
-        {"answer": "571 tug’ulib 631 vafot etganlar", "correct": false},
-        {"answer": "571 tug’ulib 633 vafot etganlar", "correct": false}
+        {"answer": "A", "correct": true},
+        {"answer": "B", "correct": false},
+        {"answer": "C", "correct": false},
+        {"answer": "D", "correct": false}
       ]
     },
     {
-      "question": "Allohning qilichi bo‘lgan sahoba?",
+      "question": "SAVOL",
       "answers": [
-        {"answer": "Holid Ibn Al Valid r.a", "correct": true},
-        {"answer": "Umar r.a", "correct": false},
-        {"answer": "Usmon r.a", "correct": false},
-        {"answer": "Abu bakr r.a", "correct": false}
-      ]
-    },
-    {
-      "question": "Payg‘ambarimiz qayerda tug‘ulganlar?",
-      "answers": [
-        {"answer": "Madinada", "correct": false},
-        {"answer": "Makkada", "correct": true},
-        {"answer": "Misrda", "correct": false},
-        {"answer": "Riyodda", "correct": false}
-      ]
-    },
-    {
-      "question": "Eng dovyurak uch sahoba?",
-      "answers": [
-        {"answer": "Umar Ibn Xattob (r.a) Xolid Ibn Al Valid (r.a) Usmon(r.a)", "correct": false},
-        {"answer": "Umar Ibn Xattob (r.a) Xolid Ibn Al Valid (r.a) Zubayir Ibn Avvon(r.a)", "correct": true},
-        {"answer": "Umar Ibn Xattob (r.a) Xolid Ibn Al Valid (r.a) Abu Bakr(r.a)", "correct": false},
-        {"answer": "Umar Ibn Xattob (r.a) Usmon (r.a) Ali (r.a)", "correct": false}
-      ]
-    },
-    {
-      "question": "Islom dinida eng og‘ir gunoh bu?",
-      "answers": [
-        {"answer": "Shirk. Allohdan boshqaga ibodat qilish", "correct": true},
-        {"answer": "O'zini o'ldirish", "correct": false},
-        {"answer": "Toq (Bo'ydoq) o'tishlik", "correct": false},
-        {"answer": "Zino qilish", "correct": false}
-      ]
-    },
-    {
-      "question": "Dunyoning yarim go'zalligi berilgan payg‘ambar bu?",
-      "answers": [
-        {"answer": "Yusuf (a.s)", "correct": true},
-        {"answer": "Muhammad (s.a.v)", "correct": false},
-        {"answer": "Zakariyo (a.s)", "correct": false},
-        {"answer": "Odam (a.s)", "correct": false}
-      ]
-    },
-    {
-      "question": "Allohning ishida eng shiddatlik bo‘lgan sahoba bu",
-      "answers": [
-        {"answer": "Umar Ibn Xattob (r.a)", "correct": true},
-        {"answer": "Usmon ib Affon", "correct": false},
-        {"answer": "Ali (r.a)", "correct": false},
-        {"answer": "Xolid Ibn Al Valid (r.a)", "correct": false}
-      ]
-    },
-    {
-      "question": "Ummatimizning eng hayoliy bo‘lgan sahobasi bu",
-      "answers": [
-        {"answer": "Usmon Ibn Affon (r.a)", "correct": true},
-        {"answer": "Ali (r.a)", "correct": false},
-        {"answer": "Umar Ibn Xattob (r.a)", "correct": false},
-        {"answer": "Bilmadim", "correct": false}
-      ]
-    },
-    {
-      "question": "Alloh va uning rasuli yaxshi ko‘rgan sahoba bu",
-      "answers": [
-        {"answer": "Ali (r.a)", "correct": true},
-        {"answer": "Abu bakr r.a", "correct": false},
-        {"answer": "Umar Ibn Xattob (r.a)", "correct": false},
-        {"answer": "Usmon Ibn Affon (r.a)", "correct": false}
-      ]
-    },
-    {
-      "question": "Qaysi payg‘ambar o‘lim farishtasi kelganda bir shapaloq urganlar?",
-      "answers": [
-        {"answer": "Muso (a.s)", "correct": true},
-        {"answer": "Muhammad (s.a.v)", "correct": false},
-        {"answer": "Iso (a.s)", "correct": false},
-        {"answer": "Ibrohim (a.s)", "correct": false}
+        {"answer": "A", "correct": true},
+        {"answer": "B", "correct": false},
+        {"answer": "C", "correct": false},
+        {"answer": "D", "correct": false}
       ]
     }
   ]
