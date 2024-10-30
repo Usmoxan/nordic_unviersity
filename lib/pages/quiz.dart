@@ -150,7 +150,7 @@ class _QuizState extends State<Quiz> {
                     const SizedBox(height: 16),
                     Align(
                       alignment: Alignment.centerLeft,
-                      child: Text("$count/10"),
+                      child: Text("$count/80"),
                     ),
                     const SizedBox(height: 10),
                     Column(
