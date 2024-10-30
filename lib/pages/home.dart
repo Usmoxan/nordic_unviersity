@@ -102,7 +102,7 @@ class _HomePageState extends State<HomePage> {
           ),
           const Spacer(),
           const Text(
-            "IQTISODIYOTGA KIRISH",
+            "XALQARO NORDIK UNIVERSITETI",
             style: TextStyle(
                 color: Color(0xFF087268),
                 fontWeight: FontWeight.bold,
