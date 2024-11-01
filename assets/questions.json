@@ -1,1662 +1,723 @@
 [
   {
-    "question": "Quyidagilarning qaysi biri iqtisodiyot fanining predmetiga taaluqli emas va nima uchun?",
+    "question": "Quyidagilarning qaysi biri iqtisodiyot fanining predmetiga taalluqli emas va nima uchun?",
     "answers": [
-      {
-        "answer": "Ehtiyojlarning maksimal darajada qondirilishi",
-        "correct": false
-      },
-      {
-        "answer": "Cheksiz resurslar",
-        "correct": true
-      },
-      {
-        "answer": "Cheksiz ehtiyojlar",
-        "correct": false
-      },
-      {
-        "answer": "Resurslardan samarali foydalanish",
-        "correct": false
-      }
+      {"answer": "Ehtiyojlarning maksimal darajada qondirilishi", "correct": false},
+      {"answer": "Cheksiz resurslar", "correct": true},
+      {"answer": "Cheksiz ehtiyojlar", "correct": false},
+      {"answer": "Resurslardan samarali foydalanish", "correct": false}
     ]
   },
   {
     "question": "Quyidagilardan qaysi biri umumiy iqtisodiy qonunlar jumlasiga kiradi?",
     "answers": [
-      {
-        "answer": "Qiymat qonuni",
-        "correct": false
-      },
-      {
-        "answer": "Talab qonuni",
-        "correct": false
-      },
-      {
-        "answer": "Taklif qonuni",
-        "correct": false
-      },
-      {
-        "answer": "Ehtiyojlarning oʻsib borish qonuni",
-        "correct": true
-      }
+      {"answer": "Qiymat qonuni", "correct": false},
+      {"answer": "Talab qonuni", "correct": false},
+      {"answer": "Taklif qonuni", "correct": false},
+      {"answer": "Ehtiyojlarning oʻsib borish qonuni", "correct": true}
     ]
+    
   },
   {
     "question": "Iqtisodiyotning bosh masalasi va doimiy muammosi:",
     "answers": [
-      {
-        "answer": "Nima, qanday, qancha va kim uchun ishlab chiqarish kerak",
-        "correct": true
-      },
-      {
-        "answer": "Ishlab chiqarish hajmini oshirish uchun qancha ishchi kuchi sarflash kerak",
-        "correct": false
-      },
-      {
-        "answer": "Davlatning milliy daromadini qanday oshirish mumkin",
-        "correct": false
-      },
-      {
-        "answer": "Toʻgʻri javob yoʻq",
-        "correct": false
-      }
+      {"answer": "Nima, qanday, qancha va kim uchun ishlab chiqarish kerak", "correct": true},
+      {"answer": "Ishlab chiqarish hajmini oshirish uchun qancha ishchi kuchi sarflash kerak", "correct": false},
+      {"answer": "Davlatning milliy daromadini qanday oshirish mumkin", "correct": false},
+      {"answer": "Toʻgʻri javob yoʻq", "correct": false}
     ]
   },
   {
     "question": "Iqtisodiyot fanining predmeti nimadan iborat?",
     "answers": [
-      {
-        "answer": "Ijtimoiy munosabatlarni oʻrganish",
-        "correct": false
-      },
-      {
-        "answer": "Iqtisodiy munosabatlarni va ijtimoiy xoʻjaliklarni samarali yuritishning iqtisodiy qonun-qoidalarini oʻrganish",
-        "correct": true
-      },
-      {
-        "answer": "Huquqiy munosabatlarni oʻrganish",
-        "correct": false
-      },
-      {
-        "answer": "Tabiiy jarayon va hodisalarni oʻrganish",
-        "correct": false
-      }
+      {"answer": "Ijtimoiy munosabatlarni oʻrganish", "correct": false},
+      {"answer": "Iqtisodiy munosabatlarni va ijtimoiy xoʻjaliklarni samarali yuritishning iqtisodiy qonun-qoidalarini oʻrganish", "correct": true},
+      {"answer": "Huquqiy munosabatlarni oʻrganish", "correct": false},
+      {"answer": "Tabiiy jarayon va hodisalarni oʻrganish", "correct": false}
+    
     ]
   },
+  
   {
     "question": "Ehtiyoj - bu........",
     "answers": [
-      {
-        "answer": "Talab",
-        "correct": false
-      },
-      {
-        "answer": "Hayotiy vositalarga boʻlgan zaruriyat",
-        "correct": true
-      },
-      {
-        "answer": "Iste’mol jarayonida qoʻllanilishi mumkin boʻlgan vosita",
-        "correct": false
-      },
-      {
-        "answer": "Toʻgʻri javob yoʻq",
-        "correct": false
-      }
+      {"answer": "Talab", "correct": false},
+      {"answer": "Hayotiy vositalarga boʻlgan zaruriyat", "correct": true},
+      {"answer": "Iste’mol jarayonida qoʻllanilishi mumkin boʻlgan vosita", "correct": false},
+      {"answer": "Toʻgʻri javob yoʻq", "correct": false}
     ]
   },
   {
     "question": "Ishlab chiqarishning asosiy omillari",
     "answers": [
-      {
-        "answer": "Xom-ashyo va ishlab chiqarish texnologiyasi",
-        "correct": true
-      },
-      {
-        "answer": "Mehnat va ishlab chiqarish resurslari",
-        "correct": false
-      },
-      {
-        "answer": "Ishchi kuchi, kapital, yer va tadbirkorlik qobiliyatiC",
-        "correct": false
-      },
-      {
-        "answer": "Hamma javoblar toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Xom-ashyo va ishlab chiqarish texnologiyasi", "correct": true},
+      {"answer": "Mehnat va ishlab chiqarish resurslari", "correct": false},
+      {"answer": "Ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati", "correct": false},
+      {"answer": "Hamma javoblar toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Iqtisodiy qonun:",
     "answers": [
-      {
-        "answer": "Doimo takrorlanib turadigan, iqtisodiy jarayonlar va real hodisalarning ayrim tomonlarini ifoda etuvchi ilmiy-nazariy tushuncha",
-        "correct": false
-      },
-      {
-        "answer": "Iqtisodiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi doimiy, takrorlanib turadigan, barqaror sabab-oqibat aloqalarini, ularning oʻzaro bogʻliqligini ifodalaydi",
-        "correct": true
-      },
-      {
-        "answer": "Ijtimoiy-iqtisodiy va siyosiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi vaqtinchalik, takrorlanib turadigan, barqaror sabab-oqibat aloqalarini, ularning oʻzaro bogʻliqligini ifodalaydi",
-        "correct": false
-      },
-      {
-        "answer": "Iqtisodiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi doimiy, takrorlanib turadigan, beqaror sabab-oqibat aloqalarini, ularning oʻzarobogʻliqligini ifodalaydi",
-        "correct": false
-      }
+      {"answer": "Doimo takrorlanib turadigan, iqtisodiy jarayonlar va real hodisalarning ayrim tomonlarini ifoda etuvchi ilmiy-nazariy tushuncha", "correct": false},
+      {"answer": "Iqtisodiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi doimiy, takrorlanib turadigan, barqaror sabab-oqibat aloqalarini, ularning oʻzaro bogʻliqligini ifodalaydi", "correct": true},
+      {"answer": "Ijtimoiy-iqtisodiy va siyosiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi vaqtinchalik, takrorlanib turadigan, barqaror sabab-oqibat aloqalarini, ularning oʻzaro bogʻliqligini ifodalaydi", "correct": false},
+      {"answer": "Iqtisodiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi doimiy, takrorlanib turadigan, beqaror sabab-oqibat aloqalarini, ularning oʻzarobogʻliqligini ifodalaydi", "correct": false}
     ]
   },
   {
     "question": "… – doimo takrorlanib turadigan, iqtisodiy jarayonlar va real hodisalarning ayrim tomonlarini ifoda etuvchi ilmiy-nazariy tushunchadir.",
     "answers": [
-      {
-        "answer": "Tahlil usuli",
-        "correct": false
-      },
-      {
-        "answer": "Iqtisodiy qonunlar",
-        "correct": false
-      },
-      {
-        "answer": "Iqtisodiy kategoriyalar",
-        "correct": true
-      },
-      {
-        "answer": "Uslubiyat",
-        "correct": false
-      }
+      {"answer": "Tahlil usuli", "correct": false},
+      {"answer": "Iqtisodiy qonunlar", "correct": false},
+      {"answer": "Iqtisodiy kategoriyalar", "correct": true},
+      {"answer": "Uslubiyat", "correct": false}
     ]
   },
   {
     "question": "Iqtisodiy resurslar deganda …",
     "answers": [
-      {
-        "answer": "Tovar ishlab chiqarish va xizmat koʻrsatish jarayonlarida foydalanish mumkin boʻlgan barcha vosita va imkoniyatlar majmui tushuniladi",
-        "correct": true
-      },
-      {
-        "answer": "Ijtimoiy-iqtisodiy va siyosiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi vaqtinchalik, takrorlanib turadigan, barqaror sabab-oqibat aloqalarini, ularning oʻzaro bogʻliqligini tushuniladi",
-        "correct": false
-      },
-      {
-        "answer": "Doimo takrorlanib turadigan, iqtisodiy jarayonlar va real hodisalarning ayrim tomonlarini ifoda etuvchi ilmiy-nazariy tushuncha nazarda tutiladi",
-        "correct": false
-      },
-      {
-        "answer": "Hayotiy vositalarga boʻlgan zaruriyat tushuniladi",
-        "correct": false
-      }
+      {"answer": "Tovar ishlab chiqarish va xizmat koʻrsatish jarayonlarida foydalanish mumkin boʻlgan barcha vosita va imkoniyatlar majmui tushuniladi", "correct": true},
+      {"answer": "Ijtimoiy-iqtisodiy va siyosiy hayotning turli tomonlari, iqtisodiy hodisa va jarayonlar oʻrtasidagi vaqtinchalik, takrorlanib turadigan, barqaror sabab-oqibat aloqalarini, ularning oʻzaro bogʻliqligini tushuniladi", "correct": false},
+      {"answer": "Doimo takrorlanib turadigan, iqtisodiy jarayonlar va real hodisalarning ayrim tomonlarini ifoda etuvchi ilmiy-nazariy tushuncha nazarda tutiladi", "correct": false},
+      {"answer": "Hayotiy vositalarga boʻlgan zaruriyat tushuniladi", "correct": false}
     ]
   },
   {
-    "question": ". Tahlil usuli – bu …",
+    "question": "Tahlil usuli – bu …",
     "answers": [
-      {
-        "answer": "Oʻrganilayotgan bir butunni alohida qismlarga ajratish va ularni izchillik bilan oʻrganish",
-        "correct": false
-      },
-      {
-        "answer": "Oʻrganilgan qismlardan olingan xulosa va natijalarni bir butun yaxlit jarayon deb qarab umumiy xulosa chiqarishdir",
-        "correct": false
-      },
-      {
-        "answer": "Tahlil paytida xalal berishi mumkin boʻlgan ikkinchi darajali narsalar, voqea- hodisalarni fikrdan chetlashtirib, oʻrganilayotgan jarayonning asl mohiyatiga e’tiborni qaratishdir",
-        "correct": false
-      },
-      {
-        "answer": "Fikrning xususiy faktlardan umumiy faktlarga qarab harakatini oʻrganish",
-        "correct": true
-      }
+      {"answer": "Oʻrganilayotgan bir butunni alohida qismlarga ajratish va ularni izchillik bilan oʻrganish", "correct": false},
+      {"answer": "Oʻrganilgan qismlardan olingan xulosa va natijalarni bir butun yaxlit jarayon deb qarab umumiy xulosa chiqarishdir", "correct": false},
+      {"answer": "Tahlil paytida xalal berishi mumkin boʻlgan ikkinchi darajali narsalar, voqea- hodisalarni fikrdan chetlashtirib, oʻrganilayotgan jarayonning asl mohiyatiga e’tiborni qaratishdir", "correct": false},
+      {"answer": "Fikrning xususiy faktlardan umumiy faktlarga qarab harakatini oʻrganish", "correct": true}
     ]
   },
   {
-    "question": ". Ishlab chiqarishning asosiy omillari:",
+    "question": "Ishlab chiqarishning asosiy omillari:",
     "answers": [
-      {
-        "answer": "Xom-ashyo va ishlab chiqarish texnologiyasi",
-        "correct": false
-      },
-      {
-        "answer": "Mehnat va ishlab chiqarish resurslari",
-        "correct": false
-      },
-      {
-        "answer": "Ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati",
-        "correct": true
-      },
-      {
-        "answer": "Hamma javoblar toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Xom-ashyo va ishlab chiqarish texnologiyasi", "correct": false},
+      {"answer": "Mehnat va ishlab chiqarish resurslari", "correct": false},
+      {"answer": "Ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati", "correct": true},
+      {"answer": "Hamma javoblar toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Ishlab chiqarishning iqtisodiy samaradorligi qanday aniqlanadi?",
     "answers": [
-      {
-        "answer": "Ishlab chiqarish natijalari kapital sarflari bilan taqqoslanadi ",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqarish natijalari umumiy sarf-xarajatlar bilan taqqoslanadi",
-        "correct": true
-      },
-      {
-        "answer": "Ishlab chiqarish natijalari aylanma mablagʻlar bilan taqqoslanadi",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Ishlab chiqarish natijalari kapital sarflari bilan taqqoslanadi ", "correct": false},
+      {"answer": "Ishlab chiqarish natijalari umumiy sarf-xarajatlar bilan taqqoslanadi", "correct": true},
+      {"answer": "Ishlab chiqarish natijalari aylanma mablagʻlar bilan taqqoslanadi", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "… deb ishchi kuchining vaqt birligi mobaynida mahsulot yaratish qobiliyatiga aytiladi va ishlab chiqarilgan mahsulotning (iste’mol qiymatining) sarflangan mehnat miqdoriga nisbati bilan belgilanadi.",
     "answers": [
-      {
-        "answer": "Mehnat unumdorligi",
-        "correct": true
-      },
-      {
-        "answer": "Kapital",
-        "correct": false
-      },
-      {
-        "answer": "Mehnat intensivsiligi",
-        "correct": false
-      },
-      {
-        "answer": "Oraliq mahsulot",
-        "correct": false
-      }
+      {"answer": "Mehnat unumdorligi", "correct": true},
+      {"answer": "Kapital", "correct": false},
+      {"answer": "Mehnat intensivsiligi", "correct": false},
+      {"answer": "Oraliq mahsulot", "correct": false}
     ]
   },
   {
     "question": "Toʻliq bandlilik nima?",
     "answers": [
-      {
-        "answer": "Xizmat ko`rsatishga yaroqli boʻlgan barcha resurslardan toʻla unum bilan foydalanish",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqarishga yaroqli boʻlgan barcha resurslardan qisman unum bilan foydalanish",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqarishga yaroqli boʻlgan barcha resurslardan toʻla unum bilan foydalanish",
-        "correct": true
-      },
-      {
-        "answer": "Ishlab chiqarishga yaroqli boʻlgan kapitaldan toʻla unum bilan foydalanish",
-        "correct": false
-      }
+      {"answer": "Xizmat ko`rsatishga yaroqli boʻlgan barcha resurslardan toʻla unum bilan foydalanish", "correct": false},
+      {"answer": "Ishlab chiqarishga yaroqli boʻlgan barcha resurslardan qisman unum bilan foydalanish", "correct": false},
+      {"answer": "Ishlab chiqarishga yaroqli boʻlgan barcha resurslardan toʻla unum bilan foydalanish", "correct": true},
+      {"answer": "Ishlab chiqarishga yaroqli boʻlgan kapitaldan toʻla unum bilan foydalanish", "correct": false}
     ]
   },
   {
     "question": "Tovar xoʻjaligining vujudga kelishi va rivojlanish shart-sharoitlari nimadan iborat?",
     "answers": [
-      {
-        "answer": "Ijtimoiy mehnat taqsimotiA",
-        "correct": false
-      },
-      {
-        "answer": "Mulk egalarining alohidalashuvi",
-        "correct": false
-      },
-      {
-        "answer": "Mahsulotning ayirboshlash uchun ishlab chiqarilishi",
-        "correct": false
-      },
-      {
-        "answer": "Yuqoridagilarning barchasi",
-        "correct": true
-      }
+      {"answer": "Ijtimoiy mehnat taqsimotiA", "correct": false},
+      {"answer": "Mulk egalarining alohidalashuvi", "correct": false},
+      {"answer": "Mahsulotning ayirboshlash uchun ishlab chiqarilishi", "correct": false},
+      {"answer": "Yuqoridagilarning barchasi", "correct": true}
     ]
   },
   {
     "question": "Mehnat unumdorligi qanday aniqlanadi?",
     "answers": [
-      {
-        "answer": "Mahsulot miqdorinini ishlab chiqarishga ketgan ish vaqtiga nisbati bilan",
-        "correct": true
-      },
-      {
-        "answer": "Mahsulot miqdorini qilingan sarf-xarajatlarga nisbati bilan ",
-        "correct": false
-      },
-      {
-        "answer": "Mahsulot miqdorini asosiy kapitalga taqqoslash yoʻli bilan",
-        "correct": false
-      },
-      {
-        "answer": "Yuqoridagi barcha usullarda",
-        "correct": false
-      }
+      {"answer": "Mahsulot miqdorinini ishlab chiqarishga ketgan ish vaqtiga nisbati bilan", "correct": true},
+      {"answer": "Mahsulot miqdorini qilingan sarf-xarajatlarga nisbati bilan ", "correct": false},
+      {"answer": "Mahsulot miqdorini asosiy kapitalga taqqoslash yoʻli bilan", "correct": false},
+      {"answer": "Yuqoridagi barcha usullarda", "correct": false}
     ]
   },
   {
     "question": "Mehnat intensivligi nima?",
     "answers": [
-      {
-        "answer": "Mehnatning aniq turining mahsuldorligi",
-        "correct": false
-      },
-      {
-        "answer": "Mehnatning sarflanish tezligi va jadalligi",
-        "correct": true
-      },
-      {
-        "answer": "Qoʻllaniladigan mehnat hajmining ortishi",
-        "correct": false
-      },
-      {
-        "answer": "Qoʻllaniladigan mehnat hajmining qisqarishi",
-        "correct": false
-      }
+      {"answer": "Mehnatning aniq turining mahsuldorligi", "correct": false},
+      {"answer": "Mehnatning sarflanish tezligi va jadalligi", "correct": true},
+      {"answer": "Qoʻllaniladigan mehnat hajmining ortishi", "correct": false},
+      {"answer": "Qoʻllaniladigan mehnat hajmining qisqarishi", "correct": false}
     ]
   },
   {
     "question": "Pulnning qaysi vazifasi narxning shakllanishi bilan bogʻliq?",
     "answers": [
-      {
-        "answer": "Muomala vositasi",
-        "correct": false
-      },
-      {
-        "answer": "Toʻlov vositasi",
-        "correct": false
-      },
-      {
-        "answer": "Qiymat oʻlchovi",
-        "correct": true
-      },
-      {
-        "answer": "Jamgʻarma vositasi",
-        "correct": false
-      }
+      {"answer": "Muomala vositasi", "correct": false},
+      {"answer": "Toʻlov vositasi", "correct": false},
+      {"answer": "Qiymat oʻlchovi", "correct": true},
+      {"answer": "Jamgʻarma vositasi", "correct": false}
     ]
   },
   {
     "question": "Pulning aylanish tezligi nimaga ta’sir qiladi?",
     "answers": [
-      {
-        "answer": "Tovar bahosiga",
-        "correct": false
-      },
-      {
-        "answer": "Muomala uchun zarur pul miqdoriga",
-        "correct": true
-      },
-      {
-        "answer": "Ayirboshlash kurslariga",
-        "correct": false
-      },
-      {
-        "answer": "Foiz stavkasiga",
-        "correct": false
-      }
+      {"answer": "Tovar bahosiga", "correct": false},
+      {"answer": "Muomala uchun zarur pul miqdoriga", "correct": true},
+      {"answer": "Ayirboshlash kurslariga", "correct": false},
+      {"answer": "Foiz stavkasiga", "correct": false}
     ]
   },
   {
     "question": "............... bu biron-bir naflilikka va qiymatga ega boʻlgan, ayirboshlash uchun yaratilgan mehnat mahsuli.",
     "answers": [
-      {
-        "answer": "Tovar",
-        "correct": true
-      },
-      {
-        "answer": "Ijtimoiy zaruriy naflilik",
-        "correct": false
-      },
-      {
-        "answer": "Abstrakt mehnat",
-        "correct": false
-      },
-      {
-        "answer": "Mehnat unumdorligi",
-        "correct": false
-      }
+      {"answer": "Tovar", "correct": true},
+      {"answer": "Ijtimoiy zaruriy naflilik", "correct": false},
+      {"answer": "Abstrakt mehnat", "correct": false},
+      {"answer": "Mehnat unumdorligi", "correct": false}
     ]
   },
   {
     "question": "Qonunlar oʻrganilganda ularning ikki jihatiga eʼtibor beriladi. Bular qaysi jihatlar?",
     "answers": [
-      {
-        "answer": "Koʻrinishi, miqdori",
-        "correct": false
-      },
-      {
-        "answer": "Miqdori, sifati",
-        "correct": true
-      },
-      {
-        "answer": "Sifati, hajmi",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Koʻrinishi, miqdori", "correct": false},
+      {"answer": "Miqdori, sifati", "correct": true},
+      {"answer": "Sifati, hajmi", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Iqtisodiyot nazariyasi fan sifatida turli funksiyalarni bajaradi. Bulardan birinchisi-bu......",
     "answers": [
-      {
-        "answer": "Taklif funksiyasi",
-        "correct": false
-      },
-      {
-        "answer": "Bilish funksiyasi",
-        "correct": true
-      },
-      {
-        "answer": "Ishlab chiqarish funksiyasi",
-        "correct": false
-      },
-      {
-        "answer": "Sifat funksiyasi",
-        "correct": false
-      }
+      {"answer": "Taklif funksiyasi", "correct": false},
+      {"answer": "Bilish funksiyasi", "correct": true},
+      {"answer": "Ishlab chiqarish funksiyasi", "correct": false},
+      {"answer": "Sifat funksiyasi", "correct": false}
     ]
   },
   {
     "question": "...- bu iqtisodni oʻrganishda qoʻllanadigan nazariy tushunchalar boʻlib ular real iqtisodiy voqealikning ilmiy ifoda etilishidir.",
     "answers": [
-      {
-        "answer": "Iqtisodiy kategoriya",
-        "correct": true
-      },
-      {
-        "answer": "Iqtisodiy qonunlar",
-        "correct": false
-      },
-      {
-        "answer": "Indeksatsiya",
-        "correct": false
-      },
-      {
-        "answer": "Toʻgʻri javob yoʻq",
-        "correct": false
-      }
+      {"answer": "Iqtisodiy kategoriya", "correct": true},
+      {"answer": "Iqtisodiy qonunlar", "correct": false},
+      {"answer": "Indeksatsiya", "correct": false},
+      {"answer": "Toʻgʻri javob yoʻq", "correct": false}
     ]
   },
   {
     "question": "Jamiyatning ishlab chiqaruvchi kuchlari nima?",
     "answers": [
-      {
-        "answer": "Ishlab chiqarish binolari va inshootlari",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqarishning shaxsiy va ashyoviy omillarining yigʻindisi va oʻzaro ta’siri",
-        "correct": true
-      },
-      {
-        "answer": "Ishchi kuchi, xom ashyo va yordamchi materiallar",
-        "correct": false
-      },
-      {
-        "answer": "Mehnat vositalari",
-        "correct": false
-      }
+      {"answer": "Ishlab chiqarish binolari va inshootlari", "correct": false},
+      {"answer": "Ishlab chiqarishning shaxsiy va ashyoviy omillarining yigʻindisi va oʻzaro ta’siri", "correct": true},
+      {"answer": "Ishchi kuchi, xom ashyo va yordamchi materiallar", "correct": false},
+      {"answer": "Mehnat vositalari", "correct": false}
     ]
   },
   {
     "question": "Mulkchilik subyektini koʻrsating:",
     "answers": [
-      {
-        "answer": "Yer, suv, kon, asbob-uskuna, bino va hokazo",
-        "correct": false
-      },
-      {
-        "answer": "Mulkni oʻzlashtirishda qatnashuvchilar",
-        "correct": true
-      },
-      {
-        "answer": "Faqatgina davlat mahkamalari",
-        "correct": false
-      },
-      {
-        "answer": "Shaxsiy mulk",
-        "correct": false
-      }
+      {"answer": "Yer, suv, kon, asbob-uskuna, bino va hokazo", "correct": false},
+      {"answer": "Mulkni oʻzlashtirishda qatnashuvchilar", "correct": true},
+      {"answer": "Faqatgina davlat mahkamalari", "correct": false},
+      {"answer": "Shaxsiy mulk", "correct": false}
     ]
   },
   {
     "question": "Resurs bozori shunday joy boʻlib, u yerda:",
     "answers": [
-      {
-        "answer": "Uy xoʻjaliklari tovarlarni sotadi, ishlab chiqaruvchilar sotib oladi",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqaruvchilar resurslarni sotadi, uy xoʻjaliklari mahsulotlarni sotadi",
-        "correct": false
-      },
-      {
-        "answer": "Uy xoʻjaliklari resurslarni sotadi va ishlab chiqaruvchilar resurslarni sotib oladi",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqaruvchilar resurslarni sotadi va uy xoʻjaliklari resurslarni sotib oladi",
-        "correct": true
-      }
+      {"answer": "Uy xoʻjaliklari tovarlarni sotadi, ishlab chiqaruvchilar sotib oladi", "correct": false},
+      {"answer": "Ishlab chiqaruvchilar resurslarni sotadi, uy xoʻjaliklari mahsulotlarni sotadi", "correct": false},
+      {"answer": "Uy xoʻjaliklari resurslarni sotadi va ishlab chiqaruvchilar resurslarni sotib oladi", "correct": false},
+      {"answer": "Ishlab chiqaruvchilar resurslarni sotadi va uy xoʻjaliklari resurslarni sotib oladi", "correct": true}
     ]
   },
   {
     "question": "Mahsulot bozorida quyidagilarni qay biri belgilab beriladi?",
     "answers": [
-      {
-        "answer": "Boshqaruvchining maoshi",
-        "correct": false
-      },
-      {
-        "answer": "Butilka fabrikasidagi foydalanilgan asbob-uskunalarning narxi",
-        "correct": false
-      },
-      {
-        "answer": "80 gektar yer maydoning narxi",
-        "correct": true
-      },
-      {
-        "answer": "Sport krassovkasining narxi",
-        "correct": false
-      }
+      {"answer": "Boshqaruvchining maoshi", "correct": false},
+      {"answer": "Butilka fabrikasidagi foydalanilgan asbob-uskunalarning narxi", "correct": false},
+      {"answer": "80 gektar yer maydoning narxi", "correct": true},
+      {"answer": "Sport krassovkasining narxi", "correct": false}
     ]
   },
   {
     "question": "Oʻrmondagi daraxtlar, mevalar, daryodagi baliqlar, dengiz boʻyidagi choʻmilish joylari....",
     "answers": [
-      {
-        "answer": "Shaxsiy mulk",
-        "correct": false
-      },
-      {
-        "answer": "Umumxalq mulki",
-        "correct": true
-      },
-      {
-        "answer": "Xususiy mulk",
-        "correct": false
-      },
-      {
-        "answer": "Oila mulki",
-        "correct": false
-      }
+      {"answer": "Shaxsiy mulk", "correct": false},
+      {"answer": "Umumxalq mulki", "correct": true},
+      {"answer": "Xususiy mulk", "correct": false},
+      {"answer": "Oila mulki", "correct": false}
     ]
   },
   {
     "question": "Bozor munosabatlariga oʻtish davrida respublika iqtisodiyotining negizini qanday mulk tashkil qiladi?",
     "answers": [
-      {
-        "answer": "Davlat mulki",
-        "correct": false
-      },
-      {
-        "answer": "Jamoa mulki",
-        "correct": false
-      },
-      {
-        "answer": "Xususiy va shaxsiy mulk",
-        "correct": false
-      },
-      {
-        "answer": "Xilma-xil mulk",
-        "correct": true
-      }
+      {"answer": "Davlat mulki", "correct": false},
+      {"answer": "Jamoa mulki", "correct": false},
+      {"answer": "Xususiy va shaxsiy mulk", "correct": false},
+      {"answer": "Xilma-xil mulk", "correct": true}
     ]
   },
   {
     "question": "Mulkni davlat tasarrufidan chiqarish, bu...",
     "answers": [
-      {
-        "answer": "davlat mulkini imtiyozli boʻlib berish",
-        "correct": false
-      },
-      {
-        "answer": "davlat mulkini nodavlat mulk va xoʻjalik yuritish shakllariga aylantirish",
-        "correct": true
-      },
-      {
-        "answer": "davlat mulkini xususiy mulkka aylantirish",
-        "correct": false
-      },
-      {
-        "answer": "davlat mulkini yuridik shaxslarga sotish",
-        "correct": false
-      }
+      {"answer": "davlat mulkini imtiyozli boʻlib berish", "correct": false},
+      {"answer": "davlat mulkini nodavlat mulk va xoʻjalik yuritish shakllariga aylantirish", "correct": true},
+      {"answer": "davlat mulkini xususiy mulkka aylantirish", "correct": false},
+      {"answer": "davlat mulkini yuridik shaxslarga sotish", "correct": false}
     ]
   },
   {
     "question": "Bozorni tartibga solish mexanizmi:",
     "answers": [
-      {
-        "answer": "Talab, taklif, narx, raqobat",
-        "correct": true
-      },
-      {
-        "answer": "Monopoliya, oligopoliya, monopsoniya",
-        "correct": false
-      },
-      {
-        "answer": "Tadbirkorlik, biznes, foyda",
-        "correct": false
-      },
-      {
-        "answer": "Toʻgʻri javob yoʻq",
-        "correct": false
-      }
+      {"answer": "Talab, taklif, narx, raqobat", "correct": true},
+      {"answer": "Monopoliya, oligopoliya, monopsoniya", "correct": false},
+      {"answer": "Tadbirkorlik, biznes, foyda", "correct": false},
+      {"answer": "Toʻgʻri javob yoʻq", "correct": false}
     ]
   },
   {
     "question": "Bozor infratuzilmasi- bu:",
     "answers": [
-      {
-        "answer": "Monopoliya, oligopoliya, talab, taklif",
-        "correct": false
-      },
-      {
-        "answer": "Ayirboshlash munosabatlariga xizmat qiluvchi muassasaviy tuzilma",
-        "correct": true
-      },
-      {
-        "answer": "Bozorga jalb etilgan tovar va xizmatlar",
-        "correct": false
-      },
-      {
-        "answer": "Hammasi toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Monopoliya, oligopoliya, talab, taklif", "correct": false},
+      {"answer": "Ayirboshlash munosabatlariga xizmat qiluvchi muassasaviy tuzilma", "correct": true},
+      {"answer": "Bozorga jalb etilgan tovar va xizmatlar", "correct": false},
+      {"answer": "Hammasi toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Bozor iqtisodiyotiga oʻtishning qanday modellari mavjud?",
     "answers": [
-      {
-        "answer": "Osiyocha model",
-        "correct": false
-      },
-      {
-        "answer": "Sobiq sotsiolistik mamlakatlar modeli",
-        "correct": false
-      },
-      {
-        "answer": "Afrika va lotin amerikasi mamlakatlari modeli",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri",
-        "correct": true
-      }
+      {"answer": "Osiyocha model", "correct": false},
+      {"answer": "Sobiq sotsiolistik mamlakatlar modeli", "correct": false},
+      {"answer": "Afrika va lotin amerikasi mamlakatlari modeli", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri", "correct": true}
     ]
   },
   {
     "question": "Bozorni tartibga solish mexanizmi:",
     "answers": [
-      {
-        "answer": "Talab, taklif, narx, raqobat",
-        "correct": true
-      },
-      {
-        "answer": "Monopoliya, oligopoliya, monopsoniya",
-        "correct": false
-      },
-      {
-        "answer": "Tadbirkorlik, biznes, foyda",
-        "correct": false
-      },
-      {
-        "answer": "Toʻgʻri javob yoʻq",
-        "correct": false
-      }
+      {"answer": "Talab, taklif, narx, raqobat", "correct": true},
+      {"answer": "Monopoliya, oligopoliya, monopsoniya", "correct": false},
+      {"answer": "Tadbirkorlik, biznes, foyda", "correct": false},
+      {"answer": "Toʻgʻri javob yoʻq", "correct": false}
     ]
   },
   {
     "question": "Bozor infratuzilmasi- bu:",
     "answers": [
-      {
-        "answer": "Monopoliya, oligopoliya, talab, taklif",
-        "correct": false
-      },
-      {
-        "answer": "Ayirboshlash munosabatlariga xizmat qiluvchi muassasaviy tuzilma",
-        "correct": true
-      },
-      {
-        "answer": "Bozorga jalb etilgan tovar va xizmatlar",
-        "correct": false
-      },
-      {
-        "answer": "Hammasi toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Monopoliya, oligopoliya, talab, taklif", "correct": false},
+      {"answer": "Ayirboshlash munosabatlariga xizmat qiluvchi muassasaviy tuzilma", "correct": true},
+      {"answer": "Bozorga jalb etilgan tovar va xizmatlar", "correct": false},
+      {"answer": "Hammasi toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Bozor iqtisodiyotiga oʻtishning qanday modellari mavjud?",
     "answers": [
-      {
-        "answer": "Osiyocha model",
-        "correct": false
-      },
-      {
-        "answer": "Sobiq sotsiolistik mamlakatlar modeli",
-        "correct": false
-      },
-      {
-        "answer": "Afrika va lotin Amerikasi Mamlakatlari modeli",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri",
-        "correct": true
-      }
+      {"answer": "Osiyocha model", "correct": false},
+      {"answer": "Sobiq sotsiolistik mamlakatlar modeli", "correct": false},
+      {"answer": "Afrika va lotin Amerikasi Mamlakatlari modeli", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri", "correct": true}
     ]
   },
   {
     "question": "Bir tizimdan ikkinchi bir tizimga oʻtishning qanday yoʻllari mavjud?",
     "answers": [
-      {
-        "answer": "Induktiv va deduktiv",
-        "correct": false
-      },
-      {
-        "answer": "Evolyutsion va inqilobiy",
-        "correct": true
-      },
-      {
-        "answer": "Falajli terapiya",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Induktiv va deduktiv", "correct": false},
+      {"answer": "Evolyutsion va inqilobiy", "correct": true},
+      {"answer": "Falajli terapiya", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "…– tovarlarni soʻnggi iste’molchilarga sotuvchi savdo muassasalari.",
     "answers": [
-      {
-        "answer": "Supermarket",
-        "correct": true
-      },
-      {
-        "answer": "Chakana savdo firmalari",
-        "correct": false
-      },
-      {
-        "answer": "Auditor firmalar",
-        "correct": false
-      },
-      {
-        "answer": "Bozor",
-        "correct": false
-      }
+      {"answer": "Supermarket", "correct": true},
+      {"answer": "Chakana savdo firmalari", "correct": false},
+      {"answer": "Auditor firmalar", "correct": false},
+      {"answer": "Bozor", "correct": false}
     ]
   },
   {
     "question": "Mustaqillikka erishilgandan soʻng bozor iqtisodiyotiga oʻtishimiz shartmidi?",
     "answers": [
-      {
-        "answer": "Ha",
-        "correct": true
-      },
-      {
-        "answer": "Yoʻq",
-        "correct": false
-      }
+      {"answer": "Ha", "correct": true},
+      {"answer": "Yoʻq", "correct": false}
+      
     ]
   },
   {
-    "question": "Jahon tajribasida bozor iqtisodiyotiga oʻtishnig..... mavj",
+    "question": "Jahon tajribasida bozor iqtisodiyotiga oʻtishning ..... mavjud",
     "answers": [
-      {
-        "answer": "5 ta yoʻli",
-        "correct": false
-      },
-      {
-        "answer": "4 ta yoʻli",
-        "correct": true
-      },
-      {
-        "answer": "3 ta yoʻli",
-        "correct": false
-      },
-      {
-        "answer": "2 ta yoʻli",
-        "correct": false
-      }
+      {"answer": "5 ta yoʻli", "correct": false},
+      {"answer": "4 ta yoʻli", "correct": true},
+      {"answer": "3 ta yoʻli", "correct": false},
+      {"answer": "2 ta yoʻli", "correct": false}
     ]
   },
   {
     "question": "Respublikada narxlar qaysi davrdan boshlab erkinlashtirila boshladi?",
     "answers": [
-      {
-        "answer": "1991 yildan",
-        "correct": false
-      },
-      {
-        "answer": "1992 yildan",
-        "correct": true
-      },
-      {
-        "answer": "1993 yildan",
-        "correct": false
-      },
-      {
-        "answer": "D",
-        "correct": false
-      }
+      {"answer": "1991 yildan", "correct": false},
+      {"answer": "1992 yildan", "correct": true},
+      {"answer": "1993 yildan", "correct": false},
+      {"answer": "1995 yildan", "correct": false}
     ]
   },
   {
     "question": "Iqtisodiyot nazariyasida iqtisodiy kategoriyalar nechta turga boʻlinadi?",
     "answers": [
-      {
-        "answer": "3 turga",
-        "correct": false
-      },
-      {
-        "answer": "Turlarga ajralmaydi ",
-        "correct": false
-      },
-      {
-        "answer": "2 turga",
-        "correct": true
-      },
-      {
-        "answer": "4 turga",
-        "correct": false
-      }
+      {"answer": "3 turga", "correct": false},
+      {"answer": "Turlarga ajralmaydi ", "correct": false},
+      {"answer": "2 turga", "correct": true},
+      {"answer": "4 turga", "correct": false}
     ]
   },
   {
     "question": "......- bu yaratilgan mahsulot va xizmatlarning pirovard natijasida ehtiyojni qondirish yoʻlida ishlatilishidir",
     "answers": [
-      {
-        "answer": "Isteʼmol",
-        "correct": true
-      },
-      {
-        "answer": "Moddiy ishlab chiqarish",
-        "correct": false
-      },
-      {
-        "answer": "Nomoddiy ishlab chiqarish",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Isteʼmol", "correct": true},
+      {"answer": "Moddiy ishlab chiqarish", "correct": false},
+      {"answer": "Nomoddiy ishlab chiqarish", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Barter, bunda bir mahsulot boshqasiga toʻgʻridan toʻgʻri va maʼlum miqdoriy nisbatda ayirboshlanadi. Qaysi misol bu yerda xato keltirilgan?",
     "answers": [
-      {
-        "answer": "1 tonna metall=2 tonna shakar",
-        "correct": false
-      },
-      {
-        "answer": "10 tonna bugʻdoy=12m^3 taxta",
-        "correct": false
-      },
-      {
-        "answer": "3 tonna paxta=20 mln.soʻm",
-        "correct": true
-      },
-      {
-        "answer": "javob keltirib oʻtilmagan",
-        "correct": false
-      }
+      {"answer": "1 tonna metall=2 tonna shakar", "correct": false},
+      {"answer": "10 tonna bugʻdoy=12m^3 taxta", "correct": false},
+      {"answer": "3 tonna paxta=20 mln.soʻm", "correct": true},
+      {"answer": "javob keltirib oʻtilmagan", "correct": false}
     ]
   },
   {
     "question": "..... yakka ehtiyoj. Bu ayrim shaxs yoki xonadonning ehtiyoji.",
     "answers": [
-      {
-        "answer": "Individual",
-        "correct": true
-      },
-      {
-        "answer": "Umumjamiyat ehtiyoji",
-        "correct": false
-      },
-      {
-        "answer": "Guruhiy",
-        "correct": false
-      },
-      {
-        "answer": "Hududiy ehtiyoj",
-        "correct": false
-      }
+      {"answer": "Individual", "correct": true},
+      {"answer": "Umumjamiyat ehtiyoji", "correct": false},
+      {"answer": "Guruhiy", "correct": false},
+      {"answer": "Hududiy ehtiyoj", "correct": false}
     ]
   },
   {
     "question": "Nomoddiy ishlab chiqarishga misollar toʻgʻri keltirilgan qatorni toping?",
     "answers": [
-      {
-        "answer": "Transport, tibbiy xizmat, bilim berish",
-        "correct": false
-      },
-      {
-        "answer": "Tashish, aloqa, madaniy-maishiy",
-        "correct": false
-      },
-      {
-        "answer": "Yoʻl xizmati koʻrsatish, sanoat, qishloq xoʻjaligi",
-        "correct": true
-      }
+      {"answer": "Transport, tibbiy xizmat, bilim berish", "correct": false},
+      {"answer": "Tashish, aloqa, madaniy-maishiy", "correct": false},
+      {"answer": "Yoʻl xizmati koʻrsatish, sanoat, qishloq xoʻjaligi", "correct": true}
+      
     ]
   },
   {
     "question": "Ehtiyojlar ularning kimga taalluqli boʻlishi jihatidan nechi turga boʻlinadi?",
     "answers": [
-      {
-        "answer": "2 ta turga",
-        "correct": false
-      },
-      {
-        "answer": "4 ta turga",
-        "correct": true
-      },
-      {
-        "answer": "3 ta turga",
-        "correct": false
-      },
-      {
-        "answer": "Turlarga boʻlinmaydi",
-        "correct": false
-      }
+      {"answer": "2 ta turga", "correct": false},
+      {"answer": "4 ta turga", "correct": true},
+      {"answer": "3 ta turga", "correct": false},
+      {"answer": "Turlarga boʻlinmaydi", "correct": false}
     ]
   },
   {
     "question": "Ehtiyojlarning oʻsishi aholining koʻpayishi, yangi ehtiyojlarning paydo boʻlishi va ularning turlanib borishi bilan bogʻliq. Shuning uchun quyidagilar qaysi yoʻnalishda boradi?",
     "answers": [
-      {
-        "answer": "Ehtiyojlar miqdoran koʻpayadi",
-        "correct": false
-      },
-      {
-        "answer": "Turli ehtiyojlarning nisbati oʻzgaradi",
-        "correct": false
-      },
-      {
-        "answer": "Ehtiyojlarning oʻrin almashinuvi yuz beradi",
-        "correct": false
-      },
-      {
-        "answer": "Hamma javoblar toʻgʻri",
-        "correct": true
-      }
+      {"answer": "Ehtiyojlar miqdoran koʻpayadi", "correct": false},
+      {"answer": "Turli ehtiyojlarning nisbati oʻzgaradi", "correct": false},
+      {"answer": "Ehtiyojlarning oʻrin almashinuvi yuz beradi", "correct": false},
+      {"answer": "Hamma javoblar toʻgʻri", "correct": true}
     ]
   },
   {
     "question": "Iqtisodiy resurslaridan qaysi biri tabiiy va mehnat resurslariga boʻlinadi?",
     "answers": [
-      {
-        "answer": "Mehnat resurslari",
-        "correct": false
-      },
-      {
-        "answer": "Moddiy resurslari",
-        "correct": true
-      },
-      {
-        "answer": "Informatsion-axborot resurslari",
-        "correct": false
-      },
-      {
-        "answer": "Barchasi toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Mehnat resurslari", "correct": false},
+      {"answer": "Moddiy resurslari", "correct": true},
+      {"answer": "Informatsion-axborot resurslari", "correct": false},
+      {"answer": "Barchasi toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "..... – kishilarning mehnat qilib, ishlab chiqara olish qobilyatidan hamda ishbilarmon boʻlish xoʻjalik faoliyatini boshqara bilish qobiliyatidan iborat boʻladi",
     "answers": [
-      {
-        "answer": "Ishlab chiqarish resurslari",
-        "correct": false
-      },
-      {
-        "answer": "Talab va taklif",
-        "correct": false
-      },
-      {
-        "answer": "Isteʼmol",
-        "correct": false
-      },
-      {
-        "answer": "Mehnat resurslari",
-        "correct": true
-      }
+      {"answer": "Ishlab chiqarish resurslari", "correct": false},
+      {"answer": "Talab va taklif", "correct": false},
+      {"answer": "Isteʼmol", "correct": false},
+      {"answer": "Mehnat resurslari", "correct": true}
     ]
   },
   {
     "question": "Isteʼmol asosan nimalarni rivojlantirishni koʻzlaydi?",
     "answers": [
-      {
-        "answer": "Davlat isteʼmoli, ishlab chiqarishni",
-        "correct": false
-      },
-      {
-        "answer": "Xususiy isteʼmoli, kundalik ehtiyojlarni",
-        "correct": false
-      },
-      {
-        "answer": "Davlat isteʼmoli, xususiy isteʼmollarni",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqarish, kundalik ehtiyojlarni",
-        "correct": true
-      }
+      {"answer": "Davlat isteʼmoli, ishlab chiqarishni", "correct": false},
+      {"answer": "Xususiy isteʼmoli, kundalik ehtiyojlarni", "correct": false},
+      {"answer": "Davlat isteʼmoli, xususiy isteʼmollarni", "correct": false},
+      {"answer": "Ishlab chiqarish, kundalik ehtiyojlarni", "correct": true}
     ]
   },
   {
     "question": ".... bu moddiy, birinchi navbatda qondiriladigan eng zarur boʻlgan ehtiyoj hisoblanadi, bunga ovqatlanish, kiyinish, turarjoyga ega boʻlish kabi ehtiyojlar kiradi",
     "answers": [
-      {
-        "answer": "Ikkilamchi ehtiyoj",
-        "correct": false
-      },
-      {
-        "answer": "Guruhiy ehtiyoj",
-        "correct": false
-      },
-      {
-        "answer": "Birlamchi ehtiyoj",
-        "correct": true
-      },
-      {
-        "answer": "Jamoaviy ehtiyoj",
-        "correct": false
-      }
+      {"answer": "Ikkilamchi ehtiyoj", "correct": false},
+      {"answer": "Guruhiy ehtiyoj", "correct": false},
+      {"answer": "Birlamchi ehtiyoj", "correct": true},
+      {"answer": "Jamoaviy ehtiyoj", "correct": false}
     ]
   },
   {
     "question": "Merkantilistlarning ilmiy dunyoqarash prinsipi...",
     "answers": [
-      {
-        "answer": "Har qanday oltin va qimmatbaho narsalarga boylik sifatida qarash",
-        "correct": true
-      },
-      {
-        "answer": "Har qanday oltin va qimmatbaho narsalardan voz kechish",
-        "correct": false
-      },
-      {
-        "answer": "Har qanday metal va qimmatbaho narsalarga boylik sifatida qarash",
-        "correct": false
-      },
-      {
-        "answer": "Har qanday kumush tangalarni eksportini ta’qiqlash",
-        "correct": false
-      }
+      {"answer": "Har qanday oltin va qimmatbaho narsalarga boylik sifatida qarash", "correct": true},
+      {"answer": "Har qanday oltin va qimmatbaho narsalardan voz kechish", "correct": false},
+      {"answer": "Har qanday metal va qimmatbaho narsalarga boylik sifatida qarash", "correct": false},
+      {"answer": "Har qanday kumush tangalarni eksportini ta’qiqlash", "correct": false}
     ]
   },
   {
     "question": "Birinchi iqtisodiy tafakkurlar maktabi...",
     "answers": [
-      {
-        "answer": "Merkantilizm",
-        "correct": true
-      },
-      {
-        "answer": ".Klassik maktab",
-        "correct": false
-      },
-      {
-        "answer": "Fiziokratizm",
-        "correct": false
-      },
-      {
-        "answer": "Marjinalizm",
-        "correct": false
-      }
+      {"answer": "Merkantilizm", "correct": true},
+      {"answer": "Klassik maktab", "correct": false},
+      {"answer": "Fiziokratizm", "correct": false},
+      {"answer": "Marjinalizm", "correct": false}
     ]
   },
   {
     "question": "Klassik iqtisodiy maktab asoschisi kim?",
     "answers": [
-      {
-        "answer": "U Petti",
-        "correct": true
-      },
-      {
-        "answer": "J.M.Keyns",
-        "correct": false
-      },
-      {
-        "answer": "Tomas Mor",
-        "correct": false
-      },
-      {
-        "answer": "J.B.Sey",
-        "correct": false
-      }
+      {"answer": "U Petti", "correct": true},
+      {"answer": "J.M.Keyns", "correct": false},
+      {"answer": "Tomas Mor", "correct": false},
+      {"answer": "J.B.Sey", "correct": false}
     ]
   },
   {
     "question": "“Koʻrinmas qoʻl” gʻoyasini ilgari surgan olim?",
     "answers": [
-      {
-        "answer": ".A.Smit",
-        "correct": true
-      },
-      {
-        "answer": "U.Petti",
-        "correct": false
-      },
-      {
-        "answer": "D.Rikardo",
-        "correct": false
-      },
-      {
-        "answer": "A.Tyurgo",
-        "correct": false
-      }
+      {"answer": "A.Smit", "correct": true},
+      {"answer": "U.Petti", "correct": false},
+      {"answer": "D.Rikardo", "correct": false},
+      {"answer": "A.Tyurgo", "correct": false}
     ]
   },
   {
     "question": "Boylik faqat qishloq xoʻjaligidan emas, balki sanoat, transport qurilish va boshqa sohalarda ham degan maktab vakillari?",
     "answers": [
-      {
-        "answer": "Klassik maktab",
-        "correct": true
-      },
-      {
-        "answer": "Merkantilistlar maktabi",
-        "correct": false
-      },
-      {
-        "answer": "Marjinalizm maktabi",
-        "correct": false
-      },
-      {
-        "answer": "Monetarizm maktabi",
-        "correct": false
-      }
+      {"answer": "Klassik maktab", "correct": true},
+      {"answer": "Merkantilistlar maktabi", "correct": false},
+      {"answer": "Marjinalizm maktabi", "correct": false},
+      {"answer": "Monetarizm maktabi", "correct": false}
     ]
   },
   {
     "question": "Mehnat taqsimotini toʻg`nogʻich ishlab chiqarish ustaxonasi misolida kim asoslab bergan?",
     "answers": [
-      {
-        "answer": "A.Smit",
-        "correct": true
-      },
-      {
-        "answer": "U.Petti",
-        "correct": false
-      },
-      {
-        "answer": "D.Rikardo",
-        "correct": false
-      },
-      {
-        "answer": "A.Tyurgo",
-        "correct": false
-      }
+      {"answer": "A.Smit", "correct": true},
+      {"answer": "U.Petti", "correct": false},
+      {"answer": "D.Rikardo", "correct": false},
+      {"answer": "A.Tyurgo", "correct": false}
     ]
   },
   {
     "question": "Bozorni tartibga solish mexanizmi:",
     "answers": [
-      {
-        "answer": "Talab, taklif, narx, raqobat;",
-        "correct": true
-      },
-      {
-        "answer": "Monopoliya, oligopoliya, monopsoniya;",
-        "correct": false
-      },
-      {
-        "answer": "Tadbirkorlik, biznes, foyda;",
-        "correct": false
-      },
-      {
-        "answer": "Toʻgʻri javob yoʻq",
-        "correct": false
-      }
+      {"answer": "Talab, taklif, narx, raqobat;", "correct": true},
+      {"answer": "Monopoliya, oligopoliya, monopsoniya;", "correct": false},
+      {"answer": "Tadbirkorlik, biznes, foyda;", "correct": false},
+      {"answer": "Toʻgʻri javob yoʻq", "correct": false}
     ]
   },
   {
     "question": "Bozor infratuzilmasi- bu:",
     "answers": [
-      {
-        "answer": "Monopoliya, oligopoliya, talab, taklif;",
-        "correct": false
-      },
-      {
-        "answer": "Ayirboshlash munosabatlariga xizmat qiluvchi muassasaviy tuzilma;",
-        "correct": true
-      },
-      {
-        "answer": "Bozorga jalb etilgan tovar va xizmatlar;",
-        "correct": false
-      },
-      {
-        "answer": "Hammasi toʻgʻri",
-        "correct": false
-      }
+      {"answer": "Monopoliya, oligopoliya, talab, taklif;", "correct": false},
+      {"answer": "Ayirboshlash munosabatlariga xizmat qiluvchi muassasaviy tuzilma;", "correct": true},
+      {"answer": "Bozorga jalb etilgan tovar va xizmatlar;", "correct": false},
+      {"answer": "Hammasi toʻgʻri", "correct": false}
     ]
   },
   {
     "question": "Bir tizimdan ikkinchi bir tizimga oʻtishning qanday yoʻllari mavjud?",
     "answers": [
-      {
-        "answer": "Induktiv va deduktiv;",
-        "correct": false
-      },
-      {
-        "answer": "Evolyutsion va inqilobiy;",
-        "correct": true
-      },
-      {
-        "answer": "Falajli terapiya;",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar toʻgʻri.",
-        "correct": false
-      }
+      {"answer": "Induktiv va deduktiv;", "correct": false},
+      {"answer": "Evolyutsion va inqilobiy;", "correct": true},
+      {"answer": "Falajli terapiya;", "correct": false},
+      {"answer": "Barcha javoblar toʻgʻri.", "correct": false}
     ]
   },
   {
-    "question": ". … – tovarlarni soʻnggi iste’molchilarga sotuvchi savdo muassasalari.",
+    "question": "… – tovarlarni soʻnggi iste’molchilarga sotuvchi savdo muassasalari.",
     "answers": [
-      {
-        "answer": "Supermarket",
-        "correct": true
-      },
-      {
-        "answer": "Chakana savdo firmalari;",
-        "correct": false
-      },
-      {
-        "answer": "Auditor firmalar;",
-        "correct": false
-      },
-      {
-        "answer": "Bozor",
-        "correct": false
-      }
+      {"answer": "Supermarket", "correct": true},
+      {"answer": "Chakana savdo firmalari;", "correct": false},
+      {"answer": "Auditor firmalar;", "correct": false},
+      {"answer": "Bozor", "correct": false}
     ]
   },
   {
     "question": "Mustaqillikka erishilgandan soʻng bozor iqtisodiyotiga oʻtishimiz shartmidi?",
     "answers": [
-      {
-        "answer": "Ha",
-        "correct": true
-      },
-      {
-        "answer": "Yoʻq",
-        "correct": false
-      }
+      {"answer": "Ha", "correct": true},
+      {"answer": "Yoʻq", "correct": false}
+      
     ]
   },
   {
     "question": "Respublikada narxlar qaysi davrdan boshlab erkinlashtirila boshladi?",
     "answers": [
-      {
-        "answer": "1991 yildan;",
-        "correct": false
-      },
-      {
-        "answer": "1992 yildan;",
-        "correct": true
-      },
-      {
-        "answer": "1993 yildan;",
-        "correct": false
-      },
-      {
-        "answer": "1994 yildan;D",
-        "correct": false
-      }
+      {"answer": "1991 yildan;", "correct": false},
+      {"answer": "1992 yildan;", "correct": true},
+      {"answer": "1993 yildan;", "correct": false},
+      {"answer": "1994 yildan;D", "correct": false}
     ]
   },
   {
     "question": "Iqtisodiyot nazariyasida iqtisodiy qonunlar nechta turga boʻlinadi?",
     "answers": [
-      {
-        "answer": "3 turga",
-        "correct": false
-      },
-      {
-        "answer": "Turlarga ajralmaydi",
-        "correct": false
-      },
-      {
-        "answer": "2 turga",
-        "correct": true
-      },
-      {
-        "answer": "4 turga",
-        "correct": false
-      }
+      {"answer": "3 turga", "correct": false},
+      {"answer": "Turlarga ajralmaydi", "correct": false},
+      {"answer": "2 turga", "correct": true},
+      {"answer": "4 turga", "correct": false}
     ]
   },
   {
     "question": "Talabga quyidagi omillar ta’sir etadi:",
     "answers": [
-      {
-        "answer": "Tovarlarning narxi va miqdori, iste’mochilar soni va daromadi;",
-        "correct": true
-      },
-      {
-        "answer": "Birjadagi tovarlar va xizmatlar narxi va aktsiyalar kursi;",
-        "correct": false
-      },
-      {
-        "answer": "Ishchilarni yollash va ularga haq toʻlash;",
-        "correct": false
-      },
-      {
-        "answer": "Resurslar narxi va ishlab chiqarish texnologiyasi.",
-        "correct": false
-      }
+      {"answer": "Tovarlarning narxi va miqdori, iste’mochilar soni va daromadi;", "correct": true},
+      {"answer": "Birjadagi tovarlar va xizmatlar narxi va aktsiyalar kursi;", "correct": false},
+      {"answer": "Ishchilarni yollash va ularga haq toʻlash;", "correct": false},
+      {"answer": "Resurslar narxi va ishlab chiqarish texnologiyasi.", "correct": false}
     ]
   },
   {
     "question": "Talab > taklif boʻlsa:",
     "answers": [
-      {
-        "answer": "Pul taqchil boʻladi;",
-        "correct": false
-      },
-      {
-        "answer": "Bozorda tovarlar oʻtmay yigʻilib qoladi;",
-        "correct": false
-      },
-      {
-        "answer": "Bozor muvozanatiga erishiladi;",
-        "correct": false
-      },
-      {
-        "answer": "Bozorda taqchillik hukm suradi.",
-        "correct": true
-      }
+      {"answer": "Pul taqchil boʻladi;", "correct": false},
+      {"answer": "Bozorda tovarlar oʻtmay yigʻilib qoladi;", "correct": false},
+      {"answer": "Bozor muvozanatiga erishiladi;", "correct": false},
+      {"answer": "Bozorda taqchillik hukm suradi.", "correct": true}
     ]
   },
   {
     "question": "Talab chizigʻi tobora pasayib bormoqda chunki:",
     "answers": [
-      {
-        "answer": "Mahsulot narxi tushishi bilan ishlab chiqaruvchilar kamroq mahsulotlarni sotuvga chiqarmoqda.",
-        "correct": false
-      },
-      {
-        "answer": "Tovar narxlarinng pasayishi xaridorlarni tovardan koʻproq sotib olishga undovhci daromad va oʻrni bosish samarasini yuzaga keltiradi.",
-        "correct": true
-      },
-      {
-        "answer": "Bozorda sotib oluvchilar qancha koʻp boʻlsa,tovar narxi ham shuncha past boʻladi.",
-        "correct": false
-      },
-      {
-        "answer": "Talab etilgan narx va miqdor bir biri bilan toʻgʻri (ijobiy) bogʻlangan",
-        "correct": false
-      }
+      {"answer": "Mahsulot narxi tushishi bilan ishlab chiqaruvchilar kamroq mahsulotlarni sotuvga chiqarmoqda.", "correct": false},
+      {"answer": "Tovar narxlarinng pasayishi xaridorlarni tovardan koʻproq sotib olishga undovhci daromad va oʻrni bosish samarasini yuzaga keltiradi.", "correct": true},
+      {"answer": "Bozorda sotib oluvchilar qancha koʻp boʻlsa,tovar narxi ham shuncha past boʻladi.", "correct": false},
+      {"answer": "Talab etilgan narx va miqdor bir biri bilan toʻgʻri (ijobiy) bogʻlangan", "correct": false}
     ]
   },
   {
     "question": "Taklifga quyidagi omillar ta’sir etadi:",
     "answers": [
-      {
-        "answer": "Sotuvchilar va xaridorlarning miqdori;",
-        "correct": false
-      },
-      {
-        "answer": "Tovar va resurslarning narxi, talab va raqobat;",
-        "correct": false
-      },
-      {
-        "answer": "Bozordagi monopolistlar va monopolistik raqobat;",
-        "correct": false
-      },
-      {
-        "answer": "Hamma javoblar toʻgʻri.",
-        "correct": true
-      }
+      {"answer": "Sotuvchilar va xaridorlarning miqdori;", "correct": false},
+      {"answer": "Tovar va resurslarning narxi, talab va raqobat;", "correct": false},
+      {"answer": "Bozordagi monopolistlar va monopolistik raqobat;", "correct": false},
+      {"answer": "Hamma javoblar toʻgʻri.", "correct": true}
     ]
   },
   {
     "question": "Taklif egri chizigʻi yuqoriga koʻtariladi, chunki qanchalik narx ............... boʻlsa, shunchalik firmalarning tovar ishlab chiqarish va sotish imkoniyati oshadi.",
     "answers": [
-      {
-        "answer": "Past",
-        "correct": false
-      },
-      {
-        "answer": "Yuqori",
-        "correct": true
-      },
-      {
-        "answer": "Oʻrtacha;",
-        "correct": false
-      },
-      {
-        "answer": "Erkin",
-        "correct": false
-      }
+      {"answer": "Past", "correct": false},
+      {"answer": "Yuqori", "correct": true},
+      {"answer": "Oʻrtacha;", "correct": false},
+      {"answer": "Erkin", "correct": false}
     ]
   },
   {
     "question": "Taklif egri chiziqi S:",
     "answers": [
-      {
-        "answer": "Narx va taklif etilgan miqdor orasidagi teskari bogʻliqlikni ifodalaydi.",
-        "correct": false
-      },
-      {
-        "answer": "Narx va taklif etilgan miqdor orasidagi toʻgʻri bogʻliqlikni ifodalaydi.",
-        "correct": true
-      },
-      {
-        "answer": "Bozoragi xaridorlarni umumiy hattiharakatlarini tasvirlaydi",
-        "correct": false
-      },
-      {
-        "answer": "Ishlab chiqaruvchilar baland marxdan koʻra pastroq narxlarda mahsulotlarni ishlab chiqarishini koʻrsatadi",
-        "correct": false
-      }
+      {"answer": "Narx va taklif etilgan miqdor orasidagi teskari bogʻliqlikni ifodalaydi.", "correct": false},
+      {"answer": "Narx va taklif etilgan miqdor orasidagi toʻgʻri bogʻliqlikni ifodalaydi.", "correct": true},
+      {"answer": "Bozoragi xaridorlarni umumiy hattiharakatlarini tasvirlaydi", "correct": false},
+      {"answer": "Ishlab chiqaruvchilar baland marxdan koʻra pastroq narxlarda mahsulotlarni ishlab chiqarishini koʻrsatadi", "correct": false}
     ]
   },
   {
     "question": "Quyidagilardan qay biri avtomobil shinalardagi oʻzgarishlarga ta’sir koʻrsatadi?",
     "answers": [
-      {
-        "answer": "Shinalar ishlab chiqarish usulida texnologik takomillashuv.",
-        "correct": true
-      },
-      {
-        "answer": "Shina sanoatida firmalar sonining pasayishi.",
-        "correct": false
-      },
-      {
-        "answer": "Avtomobil shinalarining muvozanatdagi narxi hozirgiga qaraganda kelajakda oshib ketadi deb oʻylash.",
-        "correct": false
-      },
-      {
-        "answer": "Har bir sotilgan avtomobildagi soliqlarning boji.",
-        "correct": false
-      }
+      {"answer": "Shinalar ishlab chiqarish usulida texnologik takomillashuv.", "correct": true},
+      {"answer": "Shina sanoatida firmalar sonining pasayishi.", "correct": false},
+      {"answer": "Avtomobil shinalarining muvozanatdagi narxi hozirgiga qaraganda kelajakda oshib ketadi deb oʻylash.", "correct": false},
+      {"answer": "Har bir sotilgan avtomobildagi soliqlarning boji.", "correct": false}
     ]
   },
   {
     "question": "Bozor muvozanati- bu...............",
     "answers": [
-      {
-        "answer": "Talab va taklif miqdorining tengsizligi;",
-        "correct": false
-      },
-      {
-        "answer": "Talab va taklif miqdorining tengligi;",
-        "correct": true
-      },
-      {
-        "answer": "Talabning taklifdan ortda qolishi;",
-        "correct": false
-      },
-      {
-        "answer": "Haddan tashkari koʻp ishlab chiqarish.",
-        "correct": false
-      }
+      {"answer": "Talab va taklif miqdorining tengsizligi;", "correct": false},
+      {"answer": "Talab va taklif miqdorining tengligi;", "correct": true},
+      {"answer": "Talabning taklifdan ortda qolishi;", "correct": false},
+      {"answer": "Haddan tashkari koʻp ishlab chiqarish.", "correct": false}
     ]
   },
   {
     "question": "Tovar narxining koʻtarilishiga qaramay umumiy tushum hajmi oʻzgarmaydigan boʻlsa, narxga bogʻliq talab elastikligi koeffitsienti:",
     "answers": [
-      {
-        "answer": "1 dan katta;",
-        "correct": true
-      },
-      {
-        "answer": "1 dan kichik;",
-        "correct": false
-      },
-      {
-        "answer": "0 ga teng;",
-        "correct": false
-      },
-      {
-        "answer": "1 ga teng.",
-        "correct": false
-      }
+      {"answer": "1 dan katta;", "correct": true},
+      {"answer": "1 dan kichik;", "correct": false},
+      {"answer": "0 ga teng;", "correct": false},
+      {"answer": "1 ga teng.", "correct": false}
     ]
   },
   {
     "question": "Iste’molchi tomonidan oʻzi uchun turli tovarlarning naflilik darajasining baholanishi … deyiladi.",
     "answers": [
-      {
-        "answer": "Iste’molchi tanlovi;",
-        "correct": false
-      },
-      {
-        "answer": "Befarqlik chizig`i;",
-        "correct": false
-      },
-      {
-        "answer": "Iste’molchining afzal koʻrishi;",
-        "correct": true
-      },
-      {
-        "answer": "Daromad samarasi.",
-        "correct": false
-      }
+      {"answer": "Iste’molchi tanlovi;", "correct": false},
+      {"answer": "Befarqlik chizig`i;", "correct": false},
+      {"answer": "Iste’molchining afzal koʻrishi;", "correct": true},
+      {"answer": "Daromad samarasi.", "correct": false}
     ]
   },
   {
     "question": "Naflilik nima?",
     "answers": [
-      {
-        "answer": "Subyektiv qoniqish ya‘ni tovar (xizmat) ni iste‘mol qilishdan koʻriladigan naf;",
-        "correct": true
-      },
-      {
-        "answer": "Obyektiv qoniqish ya‘ni tovar (xizmat) ni iste‘mol qilishdan koʻriladigan naf",
-        "correct": false
-      },
-      {
-        "answer": "Muayyan ne’matning navbatdagi birligini iste’mol qilishdan olingan qoʻshimcha qoniqish;",
-        "correct": false
-      },
-      {
-        "answer": "Soʻnggi qoʻshilgan naflilik koʻrsatkichlarini jamlanmasi.",
-        "correct": false
-      }
+      {"answer": "Subyektiv qoniqish ya‘ni tovar (xizmat) ni iste‘mol qilishdan koʻriladigan naf;", "correct": true},
+      {"answer": "Obyektiv qoniqish ya‘ni tovar (xizmat) ni iste‘mol qilishdan koʻriladigan naf", "correct": false},
+      {"answer": "Muayyan ne’matning navbatdagi birligini iste’mol qilishdan olingan qoʻshimcha qoniqish;", "correct": false},
+      {"answer": "Soʻnggi qoʻshilgan naflilik koʻrsatkichlarini jamlanmasi.", "correct": false}
     ]
   },
   {
-    "question": "… Ehtiyojlarni bir xil darajada qondirilishini ta’minlovchi iste’mol toʻplamlari yig‘indisini namoyon etadi.",
+    "question": "… ehtiyojlarni bir xil darajada qondirilishini ta’minlovchi iste’mol toʻplamlari yig‘indisini namoyon etadi.",
     "answers": [
-      {
-        "answer": "Befarqlik egri chizig‘i;",
-        "correct": true
-      },
-      {
-        "answer": "Daromad samarasi;",
-        "correct": false
-      },
-      {
-        "answer": "Engel qonuni;",
-        "correct": false
-      },
-      {
-        "answer": "Giffen samarasi.",
-        "correct": false
-      }
+      {"answer": "Befarqlik egri chizig‘i;", "correct": true},
+      {"answer": "Daromad samarasi;", "correct": false},
+      {"answer": "Engel qonuni;", "correct": false},
+      {"answer": "Giffen samarasi.", "correct": false}
     ]
   },
   {
     "question": "Daromad samarasi narx oʻzgarishi oqibatida iste‘molchi pul daromadi xarid qilish layoqati tebranishi natijasida",
     "answers": [
-      {
-        "answer": "Tovarlarga talabning oʻzgarishidir;",
-        "correct": true
-      },
-      {
-        "answer": "Tovarlar taklifining o‘zgarishidir;",
-        "correct": false
-      },
-      {
-        "answer": "Jamg`arishga moyillikning ortishidir;",
-        "correct": false
-      },
-      {
-        "answer": "Iste’molga moyillikning ortishidir.",
-        "correct": false
-      }
+      {"answer": "Tovarlarga talabning oʻzgarishidir;", "correct": true},
+      {"answer": "Tovarlar taklifining o‘zgarishidir;", "correct": false},
+      {"answer": "Jamg`arishga moyillikning ortishidir;", "correct": false},
+      {"answer": "Iste’molga moyillikning ortishidir.", "correct": false}
     ]
   },
   {
     "question": "Iste‘molchining narx oʻzgarishiga ta‘sirchanligi … deyiladi.",
     "answers": [
-      {
-        "answer": "Daromad samarasi;",
-        "correct": false
-      },
-      {
-        "answer": "Budjet chizig`I;",
-        "correct": false
-      },
-      {
-        "answer": "Oʻrnini bosish samarasi;",
-        "correct": true
-      },
-      {
-        "answer": "To`g`ri javob yo`q.",
-        "correct": false
-      }
+      {"answer": "Daromad samarasi;", "correct": false},
+      {"answer": "Budjet chizig`I;", "correct": false},
+      {"answer": "Oʻrnini bosish samarasi;", "correct": true},
+      {"answer": "To`g`ri javob yo`q.", "correct": false}
     ]
   },
   {
     "question": "Iste’molchi byudjetining cheklanganligi:",
     "answers": [
-      {
-        "answer": "Iste’molchining muayyan pul daromadlari mavjudligi sharoitida narxlarning muayyan darajasida u yoki bu turdagi tovarlarning ma’lum cheklangan miqdorini sotib olish imkoniyati orqali ifodalanadi;",
-        "correct": true
-      },
-      {
-        "answer": "Iste’molchining muayyan pul daromadlari mavjudligi sharoitida narxlarning o‘zgarmas darajasida u yoki bu turdagi tovarlarning ma’lum cheklangan miqdorini sotib olish imkoniyati orqali ifodalanadi;",
-        "correct": false
-      },
-      {
-        "answer": "Tovar va xizmatlarni sotuvchilarning muayyan pul daromadlari mavjudligi sharoitida narxlarning muayyan darajasida u yoki bu turdagi tovarlarning ma’lum cheklangan miqdorini sotib olish imkoniyati orqali ifodalanadi",
-        "correct": false
-      },
-      {
-        "answer": "Barcha javoblar to`g`ri.",
-        "correct": false
-      }
+      {"answer": "Iste’molchining muayyan pul daromadlari mavjudligi sharoitida narxlarning muayyan darajasida u yoki bu turdagi tovarlarning ma’lum cheklangan miqdorini sotib olish imkoniyati orqali ifodalanadi;", "correct": true},
+      {"answer": "Iste’molchining muayyan pul daromadlari mavjudligi sharoitida narxlarning o‘zgarmas darajasida u yoki bu turdagi tovarlarning ma’lum cheklangan miqdorini sotib olish imkoniyati orqali ifodalanadi;", "correct": false},
+      {"answer": "Tovar va xizmatlarni sotuvchilarning muayyan pul daromadlari mavjudligi sharoitida narxlarning muayyan darajasida u yoki bu turdagi tovarlarning ma’lum cheklangan miqdorini sotib olish imkoniyati orqali ifodalanadi", "correct": false},
+      {"answer": "Barcha javoblar to`g`ri.", "correct": false}
     ]
   }
 ]

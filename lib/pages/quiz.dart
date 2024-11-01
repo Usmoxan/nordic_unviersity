@@ -42,10 +42,29 @@ class _QuizState extends State<Quiz> {
     _loadQuestions();
   }
 
+  // void _loadQuestions() async {
+  //   final jsonStr =
+  //       await DefaultAssetBundle.of(context).loadString(widget.jsonPath);
+  //   final jsonData = json.decode(jsonStr);
+  //   _questions = List<Question>.from(jsonData.map((q) {
+  //     final answers = List<Answer>.from(q['answers'].map((a) {
+  //       return Answer(answer: a['answer'], correct: a['correct']);
+  //     }));
+  //     answers.shuffle();
+  //     return Question(
+  //       question: q['question'],
+  //       answers: answers,
+  //     );
+  //   }));
+  //   _questions.shuffle();
+  //   _getNextQuestion();
+  // }
   void _loadQuestions() async {
     final jsonStr =
         await DefaultAssetBundle.of(context).loadString(widget.jsonPath);
     final jsonData = json.decode(jsonStr);
+
+    // Load all questions and shuffle them
     _questions = List<Question>.from(jsonData.map((q) {
       final answers = List<Answer>.from(q['answers'].map((a) {
         return Answer(answer: a['answer'], correct: a['correct']);
@@ -56,7 +75,11 @@ class _QuizState extends State<Quiz> {
         answers: answers,
       );
     }));
+
+    // Shuffle and take only 10 questions
     _questions.shuffle();
+    _questions = _questions.take(10).toList();
+
     _getNextQuestion();
   }
 
@@ -150,7 +173,7 @@ class _QuizState extends State<Quiz> {
                     const SizedBox(height: 16),
                     Align(
                       alignment: Alignment.centerLeft,
-                      child: Text("$count/80"),
+                      child: Text("$count/10"),
                     ),
                     const SizedBox(height: 10),
                     Column(
