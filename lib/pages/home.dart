@@ -39,13 +39,10 @@ class _HomePageState extends State<HomePage> {
               size: 30,
             ),
             onPressed: () {
-                 Navigator.push(
+              Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const PdfReaderPage(
-                    filePath: "assets/files/about.pdf",
-                    title: "Ma'lumot",
-                  ),
+                  builder: (context) => const AboutPage(),
                 ),
               );
               // Navigator.push(
