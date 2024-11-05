@@ -101,6 +101,8 @@ class _AboutPageState extends State<AboutPage> {
     return GestureDetector(
       onTap: onClickedd,
       child: Container(
+        margin: const EdgeInsets.fromLTRB(0, 5, 0, 5),
+        padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(20.0),
