@@ -22,82 +22,82 @@ class _AboutPageState extends State<AboutPage> {
         backgroundColor: const Color(0xFF087268),
         title: const Text("Ma'lumot"),
       ),
-      body: Column(
-        children: [
-          const Spacer(),
-          GridView.count(
-            shrinkWrap: true,
-            padding: const EdgeInsets.all(25.0),
-            crossAxisCount: 2,
-            crossAxisSpacing: 25.0,
-            mainAxisSpacing: 25.0,
-            children: <Widget>[
-              _buildGridItem(
-                  'assets/man_icon.png', 'Xamidova Zulfiya Axmadjonovna', () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const PdfReaderPage(
-                      filePath: 'assets/about_1.pdf',
-                      title: 'Xamidova Zulfiya Axmadjonovna',
+      body: ListView.builder(
+        shrinkWrap: true,
+        padding: const EdgeInsets.all(25.0),
+        itemCount: 4, // Update the count according to the number of items
+        itemBuilder: (context, index) {
+          switch (index) {
+            case 0:
+              return _buildListItem(
+                'Xamidova Zulfiya Axmadjonovna',
+                () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const PdfReaderPage(
+                        filePath: 'assets/about_1.pdf',
+                        title: 'Xamidova Zulfiya Axmadjonovna',
+                      ),
                     ),
-                  ),
-                );
-              }),
-              _buildGridItem('assets/man_icon.png', 'Sobirov Xasan Nusratovich',
-                  () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const PdfReaderPage(
-                      filePath: 'assets/about_2.pdf',
-                      title: 'Sobirov Xasan Nusratovich',
+                  );
+                },
+              );
+            case 1:
+              return _buildListItem(
+                'Hamidova Asilabonu Husanovna',
+                () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const PdfReaderPage(
+                        filePath: 'assets/about_3.pdf',
+                        title: 'Hamidova Asilabonu Husanovna',
+                      ),
                     ),
-                  ),
-                );
-              }),
-              _buildGridItem(
-                  'assets/man_icon.png', 'Hamidova Asilabonu Husanovna', () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const PdfReaderPage(
-                      filePath: 'assets/about_3.pdf',
-                      title: 'Hamidova Asilabonu Husanovna',
+                  );
+                },
+              );
+      
+            case 2:
+              return _buildListItem(
+                'Sobirov Xasan Nusratovich',
+                () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const PdfReaderPage(
+                        filePath: 'assets/about_2.pdf',
+                        title: 'Sobirov Xasan Nusratovich',
+                      ),
                     ),
-                  ),
-                );
-              }),
-              _buildGridItem('assets/man_icon.png',
-                  'Tolibjonov Xurshidbek Hayotjon o\'g\'li', () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const PdfReaderPage(
-                      filePath: 'assets/about_4.pdf',
-                      title: 'Tolibjonov Xurshidbek Hayotjon o\'g\'li',
+                  );
+                },
+              );
+            case 3:
+              return _buildListItem(
+                'Tolibjonov Xurshidbek Hayotjon o\'g\'li',
+                () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const PdfReaderPage(
+                        filePath: 'assets/about_4.pdf',
+                        title: 'Tolibjonov Xurshidbek Hayotjon o\'g\'li',
+                      ),
                     ),
-                  ),
-                );
-              }),
-            ],
-          ),
-          const Spacer(),
-          const Text(
-            "XALQARO NORDIK UNIVERSITETI",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-                color: Color(0xFF087268),
-                fontWeight: FontWeight.bold,
-                fontSize: 18),
-          ),
-          const Spacer(),
-        ],
+                  );
+                },
+              );
+            default:
+              return Container(); // Handles any unexpected indices
+          }
+        },
       ),
     );
   }
 
-  Widget _buildGridItem(String imgname, String label, VoidCallback onClickedd) {
+  Widget _buildListItem(String label, VoidCallback onClickedd) {
     return GestureDetector(
       onTap: onClickedd,
       child: Container(
