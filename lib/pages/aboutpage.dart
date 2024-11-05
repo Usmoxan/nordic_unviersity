@@ -85,6 +85,7 @@ class _AboutPageState extends State<AboutPage> {
           const Spacer(),
           const Text(
             "XALQARO NORDIK UNIVERSITETI",
+            textAlign: TextAlign.center,
             style: TextStyle(
                 color: Color(0xFF087268),
                 fontWeight: FontWeight.bold,
@@ -116,11 +117,6 @@ class _AboutPageState extends State<AboutPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Image.asset(
-              imgname,
-              width: 70,
-            ),
-            const SizedBox(height: 10),
             Text(label,
                 textAlign: TextAlign.center,
                 style:

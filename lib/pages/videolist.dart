@@ -12,81 +12,66 @@ class VideosPage extends StatefulWidget {
 class _VideosPageState extends State<VideosPage> {
   final List<Map<String, String>> videos = [
     {
-      "title": "Iqtisodiyotga kirish: Raqobat va monopoliya",
-      "url":
-          "DePqk44thWA"
-    },
-    {
-      "title": "Iqtisodiyotga kirish: Iste’molchilar tanlovi nazariyasi",
-      "url":
-          "a0dub_fG1Eg"
-    },
-    {
-      "title": "Iqtisodiyotga kirish: Talab, taklif, bozor muvozanati",
-      "url":
-          "ljJeusm-XSg"
-    },
-    {
-      "title":
-          "Iqtisodiyotga kirish: Bozor iqtisodiyotining mazmuni va unga o‘tish yo‘llari",
-      "url":
-          "kF9zzkwL6Qk"
-    },
-    {
-      "title": "Iqtisodiyotga kirish: Tovar pul munosabatlari",
-      "url":
-          "jkPgr9uz_hY"
-    },
-    {
-      "title": "Iqtisodiyotga kirish: Iqtisodiy tizimlar va mulkchilik",
-      "url":
-          "auzNxx8dWYc"
+      "title": "Iqtisodiyotga kirish: Iqtisodiyot bilan tanishuv",
+      "url": "uhTZk8dOBnM"
     },
     {
       "title":
           "Iqtisodiyotga kirish: Ishlab chiqarish jarayoni va uning natijalari",
-      "url":
-          "qf2RatuNBAE"
+      "url": "qf2RatuNBAE"
     },
     {
-      "title": "Iqtisodiyotga kirish: Iqtisodiyot bilan tanishuv",
-      "url":
-          "uhTZk8dOBnM"
+      "title": "Iqtisodiyotga kirish: Iqtisodiy tizimlar va mulkchilik",
+      "url": "auzNxx8dWYc"
+    },
+    {
+      "title": "Iqtisodiyotga kirish: Tovar pul munosabatlari",
+      "url": "jkPgr9uz_hY"
+    },
+    {
+      "title":
+          "Iqtisodiyotga kirish: Bozor iqtisodiyotining mazmuni va unga o‘tish yo‘llari",
+      "url": "kF9zzkwL6Qk"
+    },
+    {
+      "title": "Iqtisodiyotga kirish: Talab, taklif, bozor muvozanati",
+      "url": "ljJeusm-XSg"
+    },
+    {
+      "title": "Iqtisodiyotga kirish: Iste’molchilar tanlovi nazariyasi",
+      "url": "a0dub_fG1Eg"
+    },
+    {
+      "title": "Iqtisodiyotga kirish: Raqobat va monopoliya",
+      "url": "DePqk44thWA"
     },
     {
       "title": "Iqtisodiyotga kirish: Narxning mohiyati va shakllanishi",
-      "url":
-          "ewGOBmdAGsQ"
+      "url": "ewGOBmdAGsQ"
     },
     {
       "title": "Iqtisodiyotga kirish: Tadbirkorlik faoliyati",
-      "url":
-          "i1w90MukZ-g"
+      "url": "i1w90MukZ-g"
     },
     {
       "title": "Iqtisodiyotga kirish: Ishlab chiqarish xarajatlari va foydasi",
-      "url":
-          "S2qhBU7JNas"
+      "url": "S2qhBU7JNas"
     },
     {
       "title": "Iqtisodiyotga kirish: Ish haqi va mehnat munosabatlari",
-      "url":
-          "S2m2F_9QoZQ"
+      "url": "S2m2F_9QoZQ"
     },
     {
       "title": "Iqtisodiyotga kirish: Agrar munosabatlar va agrobiznes",
-      "url":
-          "g9bsSbbCZu4"
+      "url": "g9bsSbbCZu4"
     },
     {
       "title": "Iqtisodiyotga kirish: Iqtisodiy o‘sish va milliy boylik",
-      "url":
-          "MRogIthNHZ"
+      "url": "MRogIthNHZ"
     },
     {
       "title": "Iqtisodiyotga kirish: Yalpi talab va yalpi taklif",
-      "url":
-          "QJQ2qGiuHvY"
+      "url": "QJQ2qGiuHvY"
     },
   ];
 

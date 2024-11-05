@@ -100,6 +100,7 @@ class _HomePageState extends State<HomePage> {
           const Spacer(),
           const Text(
             "XALQARO NORDIK UNIVERSITETI",
+            textAlign: TextAlign.center,
             style: TextStyle(
                 color: Color(0xFF087268),
                 fontWeight: FontWeight.bold,
