@@ -45,22 +45,6 @@ class _AboutPageState extends State<AboutPage> {
               );
             case 1:
               return _buildListItem(
-                'Hamidova Asilabonu Husanovna',
-                () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const PdfReaderPage(
-                        filePath: 'assets/about_3.pdf',
-                        title: 'Hamidova Asilabonu Husanovna',
-                      ),
-                    ),
-                  );
-                },
-              );
-      
-            case 2:
-              return _buildListItem(
                 'Sobirov Xasan Nusratovich',
                 () {
                   Navigator.push(
@@ -74,7 +58,8 @@ class _AboutPageState extends State<AboutPage> {
                   );
                 },
               );
-            case 3:
+
+            case 2:
               return _buildListItem(
                 'Tolibjonov Xurshidbek Hayotjon o\'g\'li',
                 () {
@@ -84,6 +69,21 @@ class _AboutPageState extends State<AboutPage> {
                       builder: (context) => const PdfReaderPage(
                         filePath: 'assets/about_4.pdf',
                         title: 'Tolibjonov Xurshidbek Hayotjon o\'g\'li',
+                      ),
+                    ),
+                  );
+                },
+              );
+            case 3:
+              return _buildListItem(
+                'Hamidova Asilabonu Husanovna',
+                () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const PdfReaderPage(
+                        filePath: 'assets/about_3.pdf',
+                        title: 'Hamidova Asilabonu Husanovna',
                       ),
                     ),
                   );

@@ -22,14 +22,10 @@ class _TopshiriqlarPageState extends State<TopshiriqlarPage> {
       "path": "assets/files/topshiriq2.pdf",
       "isJson": "false"
     },
-    {
-      "title": "IQTISODIYOTGA KIRISH - YAKUNIY NAZORAT TESTI",
-      "path": "assets/files/topshiriq3.pdf",
-      "isJson": "false"
-    },
+   
     {
       "title":
-          "IQTISODIYOTGA KIRISH-ORALIQ NAZORAT BO`YICHA TEST SAVOLLARI-2023-2024",
+          "IQTISODIYOTGA KIRISH-ORALIQ NAZORAT BO`YICHA TEST SAVOLLARI",
       "path": "assets/questions.json",
       "isJson": "true"
     }
