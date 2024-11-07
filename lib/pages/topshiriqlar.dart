@@ -25,7 +25,7 @@ class _TopshiriqlarPageState extends State<TopshiriqlarPage> {
    
     {
       "title":
-          "IQTISODIYOTGA KIRISH-ORALIQ NAZORAT BO`YICHA TEST SAVOLLARI",
+          "IQTISODIYOTGA KIRISH BO`YICHA TEST SAVOLLARI",
       "path": "assets/questions.json",
       "isJson": "true"
     }
