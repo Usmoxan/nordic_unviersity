@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:nordic_unviersity/pages/pdfreader.dart';
+import 'package:nordic_unviersity/pages/webview.dart';
 
 class AdabiyotlarPage extends StatefulWidget {
   const AdabiyotlarPage({super.key});
@@ -11,19 +12,11 @@ class AdabiyotlarPage extends StatefulWidget {
 
 class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
   final List<Map<String, String>> presentations = [
-    {"title": "IQTISODIYOT NAZARIYASI", "path": "assets/adabiyot/adabiyotlar1.pdf"},
-    {"title": "IQTISODIYOT NAZARIYASI, QO`LLANMA", "path": "assets/adabiyot/adabiyotlar2.pdf"},
-    {"title": "Iqtisodiyot nazariyasi (Yu.Yo'ldoshev)", "path": "assets/adabiyot/adabiyotlar3.pdf"},
-    {"title": "Iqtisodiy talimotlar tarixi", "path": "assets/adabiyot/adabiyotlar4.pdf"},
-    {"title": "Iqtisod nazariyasi Qobilov darslik 2013", "path": "assets/adabiyot/adabiyotlar5.pdf"},
-    {"title": "Tashmatov Sh H va b Iqtisodiy ta'limotlar tarixi Darslik 2019", "path": "assets/adabiyot/adabiyotlar6.pdf"},
-    {"title": "Замонавий иктисодий назариялар 2", "path": "assets/adabiyot/adabiyotlar7.pdf"},
-    {"title": "АРМ_Tashmatov_Sh_H_Iqtisodiy_ta'limotlar_tarixi_Darslik_2019_", "path": "assets/adabiyot/adabiyotlar8.pdf"},
-    {"title": "Iqtisodiy atamalarning o'zbekcha-inglizcha-ruscha lug'ati (Toshturg'un Ergashev)", "path": "assets/adabiyot/adabiyotlar9.pdf"},
-    {"title": "Iqtisodiyot nazariyasi. 2-kitob (D.Tojiboyev)", "path": "assets/adabiyot/adabiyotlar10.pdf"},
-    {"title": "Iqtisodiyot nazariyasi (A.O'lmasov, M.Sharifxo'jayev)", "path": "assets/adabiyot/adabiyotlar11.pdf"},
-    {"title": "IQTISODIYOT NAZARIYASIDA MUNOZARALAR", "path": "assets/adabiyot/adabiyotlar12.pdf"},
-    {"title": "Iqtisodiyot nazariyasi Olmasov A. Vahobov A. 2014 (2)", "path": "assets/adabiyot/adabiyotlar13.pdf"}
+    {"title": "Iqtisodiy ta'limotlar tarixi SH.H.Tashmatov, X,S.Asatullaev", "path": "https://ebook.tsue.uz/public/ebooks/iqtisodiy-ta-limotlar-tarixi"},
+    {"title": ",IQTISODIY ATAMALARNING IZOHLI LUG'ATI SH.I. MUSTAFAKULOV, O.A. RAXIMBERDIYEV, M.SH. EGAMBERDIYEVA", "path": "https://ebook.tsue.uz/public/ebooks/iqtisodiy-atamalarning-izohli-lug-ati"},
+    {"title": "ZAMONAVIY IQTISODIY NAZARIYALAR U.V. G‘AFUROV, B.E. MAMARAHIMOV, Q.B. SHARIPOV, F.O. OTABOYEV", "path": "https://ebook.tsue.uz/public/ebooks/zamonaviy-iqtisodiy-nazariyalar"},
+    {"title": "IQTISODIYOT NAZARIYASIDA MUNOZARALAR U.V. G'AFUROV, Z.A. XAMIDOVA", "path": "https://ebook.tsue.uz/public/ebooks/iqtisodiyot-nazariyasida-munozaralar"},
+ 
   ];
 
   @override
@@ -48,7 +41,7 @@ class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => PdfReaderPage(
+                  builder: (context) => UrlReaderPage(
                     filePath: path,
                     title: presentations[index]['title']!,
                   ),
