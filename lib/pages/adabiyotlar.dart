@@ -12,11 +12,29 @@ class AdabiyotlarPage extends StatefulWidget {
 
 class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
   final List<Map<String, String>> presentations = [
-    {"title": "Iqtisodiy ta'limotlar tarixi SH.H.Tashmatov, X,S.Asatullaev", "path": "https://ebook.tsue.uz/public/ebooks/iqtisodiy-ta-limotlar-tarixi"},
-    {"title": ",IQTISODIY ATAMALARNING IZOHLI LUG'ATI SH.I. MUSTAFAKULOV, O.A. RAXIMBERDIYEV, M.SH. EGAMBERDIYEVA", "path": "https://ebook.tsue.uz/public/ebooks/iqtisodiy-atamalarning-izohli-lug-ati"},
-    {"title": "ZAMONAVIY IQTISODIY NAZARIYALAR U.V. G‘AFUROV, B.E. MAMARAHIMOV, Q.B. SHARIPOV, F.O. OTABOYEV", "path": "https://ebook.tsue.uz/public/ebooks/zamonaviy-iqtisodiy-nazariyalar"},
-    {"title": "IQTISODIYOT NAZARIYASIDA MUNOZARALAR U.V. G'AFUROV, Z.A. XAMIDOVA", "path": "https://ebook.tsue.uz/public/ebooks/iqtisodiyot-nazariyasida-munozaralar"},
- 
+    {
+      "title": "IQTISODIYOT NAZARIYASI 1-qism",
+      "path":
+          "https://library.tsdi.uz/storage/books/March2022/vrqhxM2fACagvbnlppzn.pdf"
+    },
+    {
+      "title": "IQTISODIYOT NAZARIYASI 2-qism",
+      "path":
+          "https://namdu.uz/media/Books/pdf/2024/05/30/NamDU-ARM-2538-Iqtisodiyot_nazariyasi..pdf"
+    },
+    {
+      "title": "IQTISODIYOTGA OID ATAMALAR VA TUSHUNCHALAR IZOHLI LUG/'ATI",
+      "path": "https://api.ziyonet.uz/uploads/books/921690/5b0bd41780f94.pdf"
+    },
+    {
+      "title": "IQTISODIY TA’LIMOTLAR TARIXI 1-qism",
+      "path": "https://library.tuit.uz/knigiPDF/eko/3-45.pdf"
+    },
+    {
+      "title": "IQTISODIY TA’LIMOTLAR TARIXI 2-qism",
+      "path":
+          "https://namdu.uz/media/Books/pdf/2024/05/29/NamDU-ARM-2428-Iqtisodiy_talimotlar_tarixi.pdf"
+    },
   ];
 
   @override
