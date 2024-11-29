@@ -14,11 +14,13 @@ class _UrlReaderPageState extends State<UrlReaderPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: InAppWebView(
-          initialUrlRequest: URLRequest(url: WebUri(widget.filePath))),
-    );
+        appBar: AppBar(
+          title: Text(widget.title),
+        ),
+        body: InAppWebView(
+          initialUrlRequest: URLRequest(
+              url: WebUri(
+                  "https://library.tsdi.uz/storage/books/March2022/vrqhxM2fACagvbnlppzn.pdf")),
+        ));
   }
 }
