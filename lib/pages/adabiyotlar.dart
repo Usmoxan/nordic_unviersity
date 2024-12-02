@@ -35,6 +35,10 @@ class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
       "path":
           "https://namdu.uz/media/Books/pdf/2024/05/29/NamDU-ARM-2428-Iqtisodiy_talimotlar_tarixi.pdf"
     },
+    {"title": "IQTISODIY ОТ NAZARIYASIZ. T. GAIBNAZAROVA, SH.A. ISAMUXAMETOV", "path": "https://namdu.uz/media/Books/pdf/2024/05/30/NamDU-ARM-2538-Iqtisodiyot_nazariyasi..pdf"},
+    {"title": "IQTISODIY TA’LIMOTLAR TARIXI Q. YO‘LDOSHEV, Q. MUFTAYDINOV, V. ABDURAHMONOV", "path": "https://namdu.uz/media/Books/pdf/2024/05/29/NamDU-ARM-2428-Iqtisodiy_talimotlar_tarixi.pdf"},
+    {"title": "A. RAZZOQOV, SH. TASHMATOV, N. 0 ‘RM 0N0Y IQTISODIY TA’LIMOTLAR TARIXI", "path": "https://library.tuit.uz/knigiPDF/eko/3-45.pdf"},
+    {"title": "IQTISODIYOTGA OID ATAMALAR VA TUSHUNCHALAR IZOHLI LUG'ATI", "path": "https://api.ziyonet.uz/uploads/books/921690/5b0bd41780f94.pdf"},
   ];
 
   @override
