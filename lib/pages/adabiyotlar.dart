@@ -13,12 +13,12 @@ class AdabiyotlarPage extends StatefulWidget {
 class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
   final List<Map<String, String>> presentations = [
     {
-      "title": "IQTISODIYOT NAZARIYASI 1-qism",
+      "title": "Iqtisodiyot nazaryasi Xoshirnov P.Z, Sodiqov N.K,   Saparov T.O, Boynazarov E.E",
       "path":
           "https://library.tsdi.uz/storage/books/March2022/vrqhxM2fACagvbnlppzn.pdf"
     },
     {
-      "title": "IQTISODIYOT NAZARIYASI 2-qism",
+      "title": "Iqtisodiyot nazariyasi  Z.T. GAIBNAZAROVA, SH.A. ISAMUXAMETOV",
       "path":
           "https://namdu.uz/media/Books/pdf/2024/05/30/NamDU-ARM-2538-Iqtisodiyot_nazariyasi..pdf"
     },
@@ -27,18 +27,33 @@ class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
       "path": "https://api.ziyonet.uz/uploads/books/921690/5b0bd41780f94.pdf"
     },
     {
-      "title": "IQTISODIY TA’LIMOTLAR TARIXI 1-qism",
+      "title": "Iqtisodiyot talimotlari tarixi   A. RAZZOQOV, SH. TASHMATOV, N. 0 ‘RM 0N0Y",
       "path": "https://library.tuit.uz/knigiPDF/eko/3-45.pdf"
     },
     {
-      "title": "IQTISODIY TA’LIMOTLAR TARIXI 2-qism",
+      "title": "Iqtisodiyot talimotlari tarixi  Q. YO‘LDOSHEV, Q. MUFTAYDINOV, V. ABDURAHMONOV",
       "path":
           "https://namdu.uz/media/Books/pdf/2024/05/29/NamDU-ARM-2428-Iqtisodiy_talimotlar_tarixi.pdf"
     },
-    {"title": "IQTISODIY ОТ NAZARIYASIZ. T. GAIBNAZAROVA, SH.A. ISAMUXAMETOV", "path": "https://namdu.uz/media/Books/pdf/2024/05/30/NamDU-ARM-2538-Iqtisodiyot_nazariyasi..pdf"},
-    {"title": "IQTISODIY TA’LIMOTLAR TARIXI Q. YO‘LDOSHEV, Q. MUFTAYDINOV, V. ABDURAHMONOV", "path": "https://namdu.uz/media/Books/pdf/2024/05/29/NamDU-ARM-2428-Iqtisodiy_talimotlar_tarixi.pdf"},
-    {"title": "A. RAZZOQOV, SH. TASHMATOV, N. 0 ‘RM 0N0Y IQTISODIY TA’LIMOTLAR TARIXI", "path": "https://library.tuit.uz/knigiPDF/eko/3-45.pdf"},
-    {"title": "IQTISODIYOTGA OID ATAMALAR VA TUSHUNCHALAR IZOHLI LUG'ATI", "path": "https://api.ziyonet.uz/uploads/books/921690/5b0bd41780f94.pdf"},
+    {
+      "title":
+          "IQTISODIY TA’LIMOTLAR TARIXI Q. YO‘LDOSHEV, Q. MUFTAYDINOV, V. ABDURAHMONOV",
+      "path":
+          "https://namdu.uz/media/Books/pdf/2024/05/29/NamDU-ARM-2428-Iqtisodiy_talimotlar_tarixi.pdf"
+    },
+    {
+      "title":
+          "A. RAZZOQOV, SH. TASHMATOV, N. 0 ‘RM 0N0Y IQTISODIY TA’LIMOTLAR TARIXI",
+      "path": "https://library.tuit.uz/knigiPDF/eko/3-45.pdf"
+    },
+    {
+      "title": "IQTISODIYOTGA OID ATAMALAR VA TUSHUNCHALAR IZOHLI LUG'ATI",
+      "path": "https://api.ziyonet.uz/uploads/books/921690/5b0bd41780f94.pdf"
+    },
+    {
+      "title": "IQTISODIYOTGA OID ATAMALAR VA TUSHUNCHALAR IZOHLI LUG'ATI",
+      "path": "https://api.ziyonet.uz/uploads/books/921690/5b0bd41780f94.pdf"
+    },
   ];
 
   @override
