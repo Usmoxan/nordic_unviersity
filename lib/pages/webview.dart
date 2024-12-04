@@ -69,36 +69,36 @@ class _UrlReaderPageState extends State<UrlReaderPage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: 
-      // isLoading
-      //     ? const Center(child: CircularProgressIndicator())
-      //     : localFilePath.isNotEmpty
-      //         ? PDFView(
-      //             filePath: localFilePath,
-      //             autoSpacing: true,
-      //             enableSwipe: true,
-      //             pageSnap: true,
-      //             swipeHorizontal: true,
-      //             onRender: (_) {},
-      //             onError: (error) => _showError("Error loading PDF: $error"),
-      //             onPageError: (page, error) =>
-      //                 _showError("Error on page $page: $error"),
-      //           )
-      //         : 
-              InAppWebView(
-                  initialUrlRequest: URLRequest(
-                    url: WebUri(
-                      "https://docs.google.com/gview?embedded=true&url=${widget.filePath}",
-                      // "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-                    ),
-                  ),
-                  initialOptions: InAppWebViewGroupOptions(
-                    crossPlatform: InAppWebViewOptions(),
-                  ),
-                  onLoadError: (_, __, ___, ____) {
-                    _showError("Failed to load WebView");
-                  },
-                ),
+      body:
+          // isLoading
+          //     ? const Center(child: CircularProgressIndicator())
+          //     : localFilePath.isNotEmpty
+          //         ? PDFView(
+          //             filePath: localFilePath,
+          //             autoSpacing: true,
+          //             enableSwipe: true,
+          //             pageSnap: true,
+          //             swipeHorizontal: true,
+          //             onRender: (_) {},
+          //             onError: (error) => _showError("Error loading PDF: $error"),
+          //             onPageError: (page, error) =>
+          //                 _showError("Error on page $page: $error"),
+          //           )
+          //         :
+          InAppWebView(
+        initialUrlRequest: URLRequest(
+          url: WebUri(widget.filePath
+              // "https://docs.google.com/gview?embedded=true&url=${widget.filePath}",
+              // "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              ),
+        ),
+        initialOptions: InAppWebViewGroupOptions(
+          crossPlatform: InAppWebViewOptions(),
+        ),
+        onLoadError: (_, __, ___, ____) {
+          _showError("Failed to load WebView");
+        },
+      ),
     );
   }
 }

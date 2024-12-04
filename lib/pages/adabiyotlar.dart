@@ -20,7 +20,7 @@ class _AdabiyotlarPageState extends State<AdabiyotlarPage> {
     {
       "title": "Iqtisodiyot nazariyasi  Z.T. GAIBNAZAROVA, SH.A. ISAMUXAMETOV",
       "path":
-          "https://namdu.uz/media/Books/pdf/2024/05/30/NamDU-ARM-2538-Iqtisodiyot_nazariyasi..pdf"
+          "https://namdu.uz/media/Books/pdf/2024/05/30/NamDU-ARM-2538-Iqtisodiyot_nazariyasi.pdf"
     },
     {
       "title": "IQTISODIYOTGA OID ATAMALAR VA TUSHUNCHALAR IZOHLI LUG/'ATI",
