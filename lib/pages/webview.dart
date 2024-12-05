@@ -70,25 +70,33 @@ class _UrlReaderPageState extends State<UrlReaderPage> {
         title: Text(widget.title),
       ),
       body:
-          // isLoading
-          //     ? const Center(child: CircularProgressIndicator())
-          //     : localFilePath.isNotEmpty
-          //         ? PDFView(
-          //             filePath: localFilePath,
-          //             autoSpacing: true,
-          //             enableSwipe: true,
-          //             pageSnap: true,
-          //             swipeHorizontal: true,
-          //             onRender: (_) {},
-          //             onError: (error) => _showError("Error loading PDF: $error"),
-          //             onPageError: (page, error) =>
-          //                 _showError("Error on page $page: $error"),
-          //           )
-          //         :
+          isLoading
+              ? const Center(child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  CircularProgressIndicator(),
+                  SizedBox(height: 15,),
+                  Text("Biroz kuting yuklanmoqda...")
+                ],
+              ))
+              : localFilePath.isNotEmpty
+                  ? PDFView(
+                      filePath: localFilePath,
+                      autoSpacing: true,
+                      enableSwipe: true,
+                      pageSnap: true,
+                      swipeHorizontal: false,
+                      onRender: (_) {},
+                      onError: (error) => _showError("Serverdagi PDF o'chib ketgan yoki muammo chiqdi"),
+                      onPageError: (page, error) =>
+                          _showError("Error on page $page: $error"),
+                    )
+                  :
           InAppWebView(
         initialUrlRequest: URLRequest(
-          url: WebUri(widget.filePath
-              // "https://docs.google.com/gview?embedded=true&url=${widget.filePath}",
+          url: WebUri(
+              "https://docs.google.com/gview?embedded=true&url=${widget.filePath}",
               // "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
               ),
         ),
